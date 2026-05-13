@@ -98,7 +98,7 @@ export const bannedItems = {
         "**Iron** - Iron Age and later.",
         "**Diamond** - Diamond Age and later.",
         "**Netherite** - Netherite Age (final age).",
-        "Earlier-age players may not store or use higher-age materials, even if acquired through theft. Found Netherite during the Iron Age? Hold it. Don't equip it.",
+        "Players may not craft higher-age materials (blocked by datapack). If acquired randomly through loot they may use it.",
       ]},
       { type: "h2", text: "Dimensions" },
       { type: "ul", items: [
@@ -106,7 +106,7 @@ export const bannedItems = {
         "**The End** is locked until the Diamond+End Age. Until then, end portals are inert.",
         "After the End is unlocked, Elytra usage is permitted inside the End only - still kill-on-equip in the Overworld and Nether.",
       ]},
-      { type: "h2", text: "Enchantments" },
+      { type: "h2", text: "Enchantments (NEEDS HEAVY REVIEW" },
       { type: "p", text: "Enchantments scale with the age. The exact caps are tuned by the team, but the general principle is:" },
       { type: "ul", items: [
         "**Power and Sharpness** are capped at lower tiers in earlier ages and rise as ages progress (e.g., Power 1 in Copper Age, Power 5 in Diamond Age).",
