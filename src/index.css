@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply font-sans text-stone-800 bg-parchment;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+    repeating-conic-gradient(#e8dfc7 0% 25%, #f0e7cf 0% 50%);
+  background-size: auto, 12px 12px;
+}
+
+/* Pixel-style headings */
+.pixel-title {
+  @apply font-pixel tracking-tight text-grass-700;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.mc-title {
+  @apply font-mc text-grass-700;
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+}
+
+/* "Block" card styling — looks like a Minecraft block panel */
+.block-card {
+  @apply bg-white border-2 border-stone-700 shadow-block rounded-sm;
+}
+
+/* Status pill */
+.status-pill {
+  @apply inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wide rounded-sm;
+}
+.status-finalized { @apply bg-grass-500 text-white; }
+.status-draft     { @apply bg-gold text-stone-900; }
+.status-living    { @apply bg-diamond-500 text-stone-900; }
+
+/* Sidebar link active treatment */
+.side-link {
+  @apply block px-3 py-1.5 text-sm rounded-sm text-stone-100 hover:bg-grass-700/60 hover:text-white transition-colors;
+}
+.side-link.active {
+  @apply bg-grass-600 text-white font-semibold shadow-block;
+}
+
+/* Section heading bar */
+.section-bar {
+  @apply font-mc text-2xl text-grass-700 border-b-4 border-dirt-500 pb-1 mb-4 mt-8 first:mt-2;
+  letter-spacing: 0.03em;
+}
+
+.subsection-bar {
+  @apply font-mc text-xl text-dirt-700 mt-6 mb-2;
+  letter-spacing: 0.02em;
+}
+
+.minisection-bar {
+  @apply font-semibold text-stone-800 mt-4 mb-1 text-base;
+}
+
+/* Inline TBD placeholder pill */
+.tbd {
+  @apply inline-block px-1.5 py-0.5 mx-0.5 text-xs font-mono rounded bg-gold/40 text-stone-800 border border-gold;
+}
+
+/* Prose tweaks */
+.prose-bonkus p {
+  @apply my-3 leading-relaxed;
+}
+.prose-bonkus ul {
+  @apply list-disc pl-6 my-3 space-y-1.5;
+}
+.prose-bonkus ol {
+  @apply list-decimal pl-6 my-3 space-y-1.5;
+}
+.prose-bonkus strong {
+  @apply text-stone-900 font-semibold;
+}
+
+/* Callout boxes */
+.callout {
+  @apply border-l-4 my-4 px-4 py-3 rounded-r-sm;
+}
+.callout-info    { @apply border-diamond-600 bg-diamond-500/10; }
+.callout-warning { @apply border-gold bg-gold/15; }
+.callout-danger  { @apply border-redstone bg-redstone/10; }
+.callout-success { @apply border-grass-500 bg-grass-500/10; }

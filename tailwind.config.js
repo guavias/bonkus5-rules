@@ -1,0 +1,67 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  theme: {
+    extend: {
+      colors: {
+        grass: {
+          50:  "#f1faec",
+          100: "#dff3d2",
+          200: "#bfe7a7",
+          300: "#9bd778",
+          400: "#7ec452",
+          500: "#5BAB45",
+          600: "#468937",
+          700: "#386b2d",
+          800: "#2d5527",
+          900: "#264622",
+        },
+        dirt: {
+          50:  "#faf3eb",
+          100: "#f1e2cd",
+          200: "#e1c39a",
+          300: "#cf9f66",
+          400: "#bb8045",
+          500: "#8B5A2B",
+          600: "#724823",
+          700: "#5b391c",
+          800: "#452b15",
+          900: "#2e1d0e",
+        },
+        stone: {
+          50:  "#f6f6f6",
+          100: "#e7e7e7",
+          200: "#d1d1d1",
+          300: "#b0b0b0",
+          400: "#888888",
+          500: "#6f6f6f",
+          600: "#5d5d5d",
+          700: "#4f4f4f",
+          800: "#3a3a3a",
+          900: "#262626",
+        },
+        diamond: {
+          400: "#7defff",
+          500: "#5DECF5",
+          600: "#29B5BF",
+          700: "#1f8d96",
+        },
+        gold:     "#F8C84B",
+        redstone: "#D63A3A",
+        emerald:  "#17DD62",
+        obsidian: "#1A1530",
+        parchment:"#FAF3E3",
+      },
+      fontFamily: {
+        pixel: ['"Press Start 2P"', 'monospace'],
+        mc:    ['"VT323"', 'monospace'],
+        sans:  ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+      },
+      boxShadow: {
+        block: "inset -3px -3px 0 rgba(0,0,0,0.25), inset 3px 3px 0 rgba(255,255,255,0.18)",
+        pixel: "4px 4px 0 0 rgba(0,0,0,0.25)",
+      },
+    },
+  },
+  plugins: [],
+}
