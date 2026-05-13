@@ -44,7 +44,7 @@ export const staffServer = {
       { type: "ul", items: [
         "**Veteran players** - can refer 2 players at the beginning stage. Extra invites at a later date  will be up to moderators' discretion.",
         "**Moderators and above** - can invite at their discretion with Head Admin approval",
-        "Standard players cannot formally invite - they can tell someone about the server and direct them to a faction leader or the mod team",
+        "Standard players cannot formally invite - they can tell someone about the server and direct them to a veteran player or the mod team",
       ]},
       { type: "h2", text: "Invite requirements" },
       { type: "p", text: "Anyone referred must still complete the standard character application process. A referral does not guarantee acceptance - it just allows the application to be considered. The mod team can reject any application." },
@@ -64,10 +64,10 @@ export const staffServer = {
     intro: "Who runs Bonkus 5, what they do, and how to contact them.",
     blocks: [
       { type: "h2", text: "Current mod team - Season 5" },
-      { type: "p", text: "**Head Admin:** [TBD: Head Admin name and Discord handle]" },
-      { type: "p", text: "**Administrators:** [TBD: Admin name list and Discord handles]" },
-      { type: "p", text: "**Senior Moderators:** [TBD: Senior mod name list and Discord handles]" },
-      { type: "p", text: "**Moderators:** [TBD: Moderator name list and Discord handles]" },
+      { type: "p", text: "**Founder:** @yoodlenoodles" },
+      { type: "p", text: "**Administrators:** @Dr_Bluebeard_M_H, @Pikaju04, and @Onikisuwu_" },
+      { type: "p", text: "**Moderators:** @BlueDeathMage" },
+      { type: "p", text: "**Officers:** @grenowich245" },
       { type: "h2", text: "What the mod team does" },
       { type: "ul", items: [
         "Review and approve character applications",
@@ -82,14 +82,14 @@ export const staffServer = {
       { type: "h2", text: "How to contact the mod team" },
       { type: "ul", items: [
         "**Routine questions** - post in #rules-questions in Discord",
-        "**Reports** - use the #mod-reports channel or DM any active moderator",
+        "**Reports** - DM any active moderator",
         "**Appeals** - submit the Appeals Form (see Forms page)",
         "**Urgent issues** - ping @Moderator in Discord",
         "**Head Admin** - DM directly only for issues that have gone unresolved through other channels",
       ]},
       { type: "h2", text: "Mod team conduct" },
-      { type: "p", text: "Moderators are players too. They have characters and factions. We manage conflicts of interest by having moderators recuse themselves from investigations involving their own faction or close allies. If you believe a moderator is not being impartial, contact the Head Admin." },
-      { type: "callout", variant: "warning", lead: "Don't mod-shop.", text: "Going to a different moderator because you didn't like the first one's answer is not permitted. The mod team confers - your attempt to get a different answer will be visible to all of them." },
+      { type: "p", text: "Moderators are players too. They have characters and factions. We manage conflicts of interest by having moderators recuse themselves from investigations involving their own faction or close allies. If you believe a moderator is not being impartial, contact the Admins." },
+      { type: "callout", variant: "warning", lead: "Don't mod-shop.", text: "Going to a different moderator because you didn't like the first one's answer is discouraged. The mod team confers - your attempt to get a different answer will be visible to all of them." },
     ],
   },
 
