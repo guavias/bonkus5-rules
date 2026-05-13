@@ -156,7 +156,7 @@ export const battles = {
       { type: "p", text: "Before every battle session, **each faction deposits a battle chest** in a designated, sealed location. The mod team holds both chests in escrow during the battle. The winner receives the loser's battle chest. The loser retains their own." },
       { type: "callout", variant: "warning", lead: "Underfilling the battle chest", text: "Intentionally underfilling your battle chest (putting fewer resources than required) is a form of cheating. The mod team verifies chest contents. Violations result in a strike and forfeiture of additional resources." },
       { type: "h2", text: "Capturing the hub" },
-      { type: "p", text: "The world hub cannot be captured - it remains neutral territory for the entire season. Any war that reaches the hub border triggers an automatic ceasefire and mandatory peace talks mediated by the mod team." },
+      { type: "p", text: "The world hub cannot be captured - it remains neutral international territory for the entire season. Any war that reaches the hub border triggers an automatic ceasefire and mandatory peace talks mediated by the mod team." },
       { type: "h2", text: "Settlement captures" },
       { type: "p", text: "If a nation captures a **settlement** (a country's primary base), additional consequences apply:" },
       { type: "ul", items: [
