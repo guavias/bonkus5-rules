@@ -145,7 +145,6 @@ export const battles = {
     blocks: [
       { type: "h2", text: "Capturing territory" },
       { type: "p", text: "Winning a battle session captures the battle's **contested zone** - the area of map defined for that session. The captured zone transfers to the winning nation's control after the session ends." },
-      { type: "p", text: "Transfer is confirmed by the mod team within 24 hours of the session end. The losing faction has 24 hours to remove their portable belongings from the captured zone before the winning faction takes full control." },
       { type: "h2", text: "What can be looted" },
       { type: "p", text: "After a successful capture, the winning faction may loot the **battle chest** - a designated chest placed by the losing faction before the battle begins. The battle chest must contain:" },
       { type: "ul", items: [

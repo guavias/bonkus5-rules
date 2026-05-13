@@ -44,8 +44,7 @@ export const rules = {
     intro: "Roleplay on Bonkus is governed by these rules. Unlike the Roleplay Guide (which is advice), these are binding.",
     blocks: [
       { type: "h2", text: "Character commitment" },
-      { type: "p", text: "You must play your **approved character** at all times while on the server. You cannot switch characters mid-season without submitting a character revision form and receiving mod approval." },
-      { type: "p", text: "Character Revision Form: [TBD: Google Form link for character revision]" },
+      { type: "p", text: "You must play your **approved character** at all times while on the server. You cannot switch characters mid-season. You as a player can only change character if you have a character death in gameplay." },
       { type: "h2", text: "Metagaming" },
       { type: "p", text: "**Metagaming** is using out-of-character knowledge to inform in-character decisions. It is forbidden." },
       { type: "ul", items: [
@@ -92,7 +91,6 @@ export const rules = {
       { type: "ol", items: [
         "Have an in-character justification for the war (political dispute, territorial claim, religious conflict, etc.)",
         "Announce the declaration in the designated #warfare channel in Discord",
-        "Wait for mod team acknowledgment before beginning any raids or PvP",
       ]},
       { type: "h2", text: "Raid rules" },
       { type: "p", text: "Raids may only occur between nations that are in a state of **declared war**. During a raid:" },
@@ -101,7 +99,7 @@ export const rules = {
         "You may steal from containers (chests, barrels, etc.) - see Stealing Rules for limits",
         "You may destroy structures - see Build Rules for what destruction is permitted",
         "You may not raid the same base more than **once every 48 hours**",
-        "Raids must be announced in Discord at the time they begin",
+        "Raids must be announced in Discord and in Minecraft at the time they begin",
         "Raids may not occur during **scheduled battle time** if both parties are in the same battle",
       ]},
       { type: "h2", text: "Alliances and neutrality" },

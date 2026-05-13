@@ -57,6 +57,10 @@ export const bannedItems = {
       { type: "ul", items: [
         "**Reasoning:** Excessive destruction.",
       ]},
+      { type: "h2", text: "Ender Chests" },
+      { type: "ul", items: [
+        "**Reasoning:** All items should theoretically be stealable.",
+      ]},
       { type: "h2", text: "Respawn Anchors (in overworld combat and traps)" },
       { type: "ul", items: [
         "**Reasoning:** Excessive destruction.",
@@ -68,6 +72,11 @@ export const bannedItems = {
       { type: "h2", text: "Ender eyes (TEMPORARILY)" },
       { type: "ul", items: [
         "**Reasoning:** To prevent unauthorized End accesss.",
+      ]},
+      { type: "h2", text: "Beacons" },
+      { type: "ul", items: [
+        "Beacons are not banned, but **building a beacon requires Wither-killing** - see the Wither section.",
+        "Beacons in residential areas should be screened/covered - a visible beacon counts as a feature of the Location and is part of its lore.",
       ]},
       { type: "h2", text: "Trade rebalance items" },
       { type: "ul", items: [
@@ -101,17 +110,9 @@ export const bannedItems = {
       { type: "p", text: "Enchantments scale with the age. The exact caps are tuned by the team, but the general principle is:" },
       { type: "ul", items: [
         "**Power and Sharpness** are capped at lower tiers in earlier ages and rise as ages progress (e.g., Power 1 in Copper Age, Power 5 in Diamond Age).",
-        "**Protection** is similarly capped; the team is considering making **Prot 5 with special effects** a treasure-only enchant rather than a regular one.",
+        "**Protection** is similarly capped; the team is considering making **Prot 4 with special effects** a treasure-only enchant rather than a regular one.",
         "**Mending** is allowed (it's acknowledged as basically required for the server to be playable), but the path to acquiring it is constrained - see the trade rules.",
         "**Riptide, Loyalty, and Channeling** are subject to age and Mythic restrictions - talk to a mod before assuming you can stack them.",
-      ]},
-      { type: "h2", text: "Magic Stations (the four restricted utility blocks)" },
-      { type: "p", text: "These four items are tied to Location tiers and ages, not to individual crafting. Individual players cannot just craft and place these - they live at Locations and serve the Location's residents." },
-      { type: "ul", items: [
-        "**Enchanting Table** - unlocked at launch, but available as a Location magic station starting at Village tier and up. Limited number per Country.",
-        "**Brewing Stand** - same: available as a Village-tier Location magic station from launch.",
-        "**Nether Portal** - unlocked when the Nether Age begins. Available as a Location magic station from then on.",
-        "**Ender Chest** - unlocked when the Nether Age begins. Available as a Location magic station. See the Tightly Controlled page for more.",
       ]},
     ],
   },
@@ -121,19 +122,6 @@ export const bannedItems = {
     status: "In Review",
     intro: "These items are available but come with strict rules about how, where, and when they can be used.",
     blocks: [
-      { type: "h2", text: "Ender Chests" },
-      { type: "ul", items: [
-        "**Ender chests are not personal inventory.** They cannot be placed by individual players in their own bases.",
-        "Ender chests are a **Location-level magic station** - a Location chooses to have an Ender Chest as one of its limited magic-station slots.",
-        "**No ender chests during Battle Time.** Ender chest access is disabled during Battle Time to prevent off-site inventory swapping.",
-        "Battle Banners cannot be placed in ender chests at any time.",
-        "**Reasoning:** Ender chests fundamentally break loot, theft, and war - if everyone has portable infinite storage, the one-third rule and stealing rules become meaningless.",
-      ]},
-      { type: "h2", text: "Beacons" },
-      { type: "ul", items: [
-        "Beacons are not banned, but **building a beacon requires Wither-killing** - see the Wither section.",
-        "Beacons in residential areas should be screened/covered - a visible beacon counts as a feature of the Location and is part of its lore.",
-      ]},
       { type: "h2", text: "The Wither" },
       { type: "ul", items: [
         "You may summon the Wither, but doing so in or near a residential area without warning is treated as **griefing**, not \"PvE.\"",
@@ -152,12 +140,6 @@ export const bannedItems = {
         "In Bonkus 4, the team spawned two custom End Cities (without ships) somewhere in the world border. Whichever Nation controls that territory gets a **Shulker Spawner** as a Location reward.",
         "Expect a similar model in Bonkus 5: shulker access is geographic, not personal.",
         "Shulker boxes themselves are not banned - but they're subject to the same theft/looting rules as other containers.",
-      ]},
-      { type: "h2", text: "Chorus Fruit / End Stone" },
-      { type: "ul", items: [
-        "Chorus fruit is available only after the End is unlocked.",
-        "Once unlocked, the team often makes **End Stone Spawners** available at controlling Locations - e.g., 32 End Stone for one popped chorus fruit.",
-        "Chorus fruit teleportation is allowed during normal play but **disabled during Battle Time** (mechanism TBD).",
       ]},
     ],
   },
@@ -185,7 +167,6 @@ export const bannedItems = {
       { type: "ul", items: [
         "**AFK farms of any kind.** If the design intent is to leave it running while you sleep, it's not allowed.",
         "**TNT dupers** (banned for game-balance reasons - they can produce infinite gunpowder).",
-        "**Slime/Honey-block flying machines** as freight or transit. They count as movement-mod-like.",
         "**Wither cage farms** - not for the wither skeleton skulls, not for the netherite.",
         "**Hostile mob farms in or under residential Locations.** These count as griefing.",
         "**Chunk loaders / world eaters / world-border exploit farms.**",
@@ -217,16 +198,12 @@ export const bannedItems = {
       { type: "ul", items: [
         "Power and similar enchantments are age-gated as described in Age-Gated Items.",
         "Infinity bows and Mending bows allowed but subject to age caps.",
-        "**Riptide tridents** in PvP are restricted - the team considers them a movement exploit similar to Elytra. Talk to a mod before building a Riptide-based build.",
+        "**Riptide tridents** are locked to Riptide I."
       ]},
       { type: "h2", text: "Crossbows" },
       { type: "ul", items: [
         "Multishot and Piercing follow normal age caps.",
         "**Firework rockets used with crossbows are limited** - fireworks are \"more OP than expected\"; expect a damage nerf in Bonkus 5.",
-      ]},
-      { type: "h2", text: "Snowballs and Eggs" },
-      { type: "ul", items: [
-        "Allowed but cannot be the only weapon you use - spamming snowballs as a primary PvP strategy is a soft strike.",
       ]},
       { type: "h2", text: "Potions" },
       { type: "ul", items: [
@@ -236,7 +213,7 @@ export const bannedItems = {
       { type: "h2", text: "Pearls" },
       { type: "ul", items: [
         "Pearls are not a normal vanilla drop here - they're a custom unlockable item (overworld + watery biomes, primary or secondary specialization).",
-        "**Enderdust** is the modified Ender Pearl mechanic - see custom items.",
+        "**Enderorb** is the modified Ender Pearl mechanic - see custom items.",
         "No infinite-pearl exploits, including stasis chambers.",
       ]},
     ],
@@ -252,7 +229,6 @@ export const bannedItems = {
         "**PvP outside Battle Time.** Yes, this is fine. Killing other players in legitimate roleplay context is allowed. Conquest isn't.",
         "**Building anywhere in Wilderness.** As long as you're 20+ blocks from any existing Location, build whatever.",
         "**Multiple bases.** You can have bases in many places. You only get **one primary residence** per Location.",
-        "**Trading with banned players' former Nations.** A Country can absorb a defunct Nation that previously belonged to a banned player. The Nation's items don't carry the ban.",
         "**Mythic theft.** Mythics can be stolen during legitimate war, with mod approval. See War & Conflict Rules.",
       ]},
       { type: "h2", text: "Server OP and admin tools (staff transparency note)" },
