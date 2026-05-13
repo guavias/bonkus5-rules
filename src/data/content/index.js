@@ -13,7 +13,7 @@ export const content = {
   "roleplay-guide": roleplayGuide,
   "world":          world,
   "battles":        battles,
-  "staff-server":   staffServer,
+  "staff-server-invites": staffServer,
 }
 
 export function getPage(sectionSlug, pageSlug) {

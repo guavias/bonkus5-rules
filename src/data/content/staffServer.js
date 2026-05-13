@@ -51,7 +51,7 @@ export const staffServer = {
       { type: "h2", text: "Gate limits" },
       { type: "p", text: "The server has a maximum player count. At full capacity, the gate closes - no new players are accepted until there is space, regardless of referrals. Current capacity and waitlist status are posted in #server-info in Discord." },
       { type: "h2", text: "Mid-season invites" },
-      { type: "p", text: "Mid-season invites are more restricted than season-start invites. New mid-season players must have a clear narrative hook for their arrival and must join an existing faction (no founding new factions mid-season)." },
+      { type: "p", text: "Mid-season invites are more restricted than season-start invites. New mid-season players must have a clear narrative hook for their arrival and must join an existing faction." },
       { type: "h2", text: "The ban list and the gate" },
       { type: "p", text: "Players on the **banned list** cannot be invited. Attempting to invite a banned player - even unknowingly - will result in the invite being revoked and may result in a review of the inviting player's standing." },
       { type: "callout", variant: "info", lead: "Why we're strict", text: "Bonkus works because of its community. Letting in the wrong player damages the whole experience. We'd rather have a smaller, high-quality community than scale up at the cost of culture." },

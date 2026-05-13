@@ -16,7 +16,7 @@ export const startHere = {
         "**Roleplay Guide** - advice on how to play well (not rules, but strongly encouraged)",
         "**The World** - lore, locations, nations, religions, tech trees, and custom items",
         "**Battles** - the complete guide to how war and battle time work",
-        "**Staff & Server** - server governance, the mod team, banned list, forms, and changelog",
+        "**Staff, Server, & Gate Policy** - server governance, the mod team, banned list, forms, and changelog",
       ]},
       { type: "h2", text: "If you are new to Bonkus" },
       { type: "p", text: "Read this entire Start Here section first. Then read the Rules section. You do not need to read the Roleplay Guide or World sections before your first session, but you should get to them soon." },
@@ -88,7 +88,7 @@ export const startHere = {
       { type: "p", text: "Once approved, you will receive the server IP and be added to the whitelist. Your first login should happen within **7 days** of approval or your whitelist slot may be taken away." },
       { type: "h2", text: "Referral policy" },
       { type: "p", text: "Each existing player may refer **one new player per month**. (SUBJECT TO CHANGE) If your referral receives a strike within their first 30 days, it reflects on you. If your referral is banned, your own status may be reviewed." },
-      { type: "callout", variant: "info", lead: "Mid-season joins", text: "If you are joining mid-season, your character application will include a section on how your character enters the world narratively. The mod team will assign you to an appropriate faction or allow you to enter as a neutral." },
+      { type: "callout", variant: "info", lead: "Mid-season joins", text: "If you are joining mid-season, your character application will include a section on how your character enters the world narratively. You can be assigned to an appropriate existing country, a new country (with approval), or allow you to enter as an independent neutral for a temporary period." },
     ],
   },
 

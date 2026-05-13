@@ -75,14 +75,14 @@ export const sections = [
       { slug: "schedule",             title: "Schedule & How It Starts" },
       { slug: "lives-spawning",       title: "Lives, Spawning, Building Rules" },
       { slug: "battle-banners",       title: "Battle Banners & Tiers" },
-      { slug: "capture-mechanics",    title: "Capture Mechanics" },
+      { slug: "stealing-mechanics",    title: "Stealing Mechanics" },
       { slug: "setpiece-battles",     title: "Setpiece Battles" },
       { slug: "pve-defensive-mobs",   title: "PvE & Defensive Mobs" },
     ],
   },
   {
-    slug: "staff-server",
-    title: "Staff & Server",
+    slug: "staff-server-invites",
+    title: "Staff, Server, & Gate Policy",
     tagline: "How the server is governed and managed.",
     pages: [
       { slug: "server-roles",      title: "Server Roles" },
