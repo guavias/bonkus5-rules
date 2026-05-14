@@ -30,7 +30,7 @@ export const battles = {
   },
 
   "schedule": {
-    title: "Schedule & How It Starts",
+    title: "Schedule & How It Starts (PLEASE FILL OUT)",
     status: "In Review",
     intro: "Battle Time follows a defined scheduling process. Nothing happens without coordination. This page explains the process from war declaration to first battle.",
     blocks: [
@@ -46,7 +46,7 @@ export const battles = {
     blocks: [
       { type: "h2", text: "The lives system" },
       { type: "p", text: "Each player in a battle session has a **limited number of lives**. When you run out of lives, you may still fight, but you drop your inventory upon death (meaning other players can loot you)." },
-      { type: "ul", text: "In a **setpiece battle**: 5 lives are given per player"},
+      { type: "ul", items: ["In a **setpiece battle**: 5 lives are given per player"] },
       { type: "h2", text: "Respawning" },
       { type: "p", text: "When you die in battle (and still have lives remaining), you respawn at a safe point in your location's nation borders. You maintain with your pre-battle loadout assuming you did not lose all lives during battle (you keep your inventory on death)"},
       { type: "h2", text: "Gear and loadout" },
@@ -74,8 +74,8 @@ export const battles = {
     intro: "Battle banners are the seat of a country's power on the map. They capture territory in battle and collect resources in peacetime.",
     blocks: [
       { type: "h2", text: "What is a battle banner?" },
-      { type: "p", text: "A **battle banner** is a custom country item that has two jobs. In battle, it lets you capture enemy territory. Out of battle, it acts as a resource collector - but only in territory you have already conquered." },
-      { type: "p", text: "Every country gets a battle banner when it is founded. The banner can be split into weaker copies, and weaker copies can be rejoined back into stronger ones, so a country can have several banners on the map at once at different strengths." },
+      { type: "p", text: "A **battle banner** is a custom country item that has two jobs. In battle, it lets you capture enemy territory. Out of battle, it acts as a resource collectoor **ONLY** in territory you have already conquered." },
+      { type: "p", text: "Every country gets a battle banner when it is founded. The banner can be split into weaker copies with a **nether star**, and weaker copies can be rejoined back into stronger ones, so a country can have several banners on the map at once at different strengths." },
 
       { type: "h2", text: "In battle: conquest" },
       { type: "p", text: "While wearing your country's battle banner during battle time:" },
@@ -174,28 +174,24 @@ export const battles = {
     intro: "Setpiece battles are the climactic, high-stakes engagements that decide wars. They follow special rules and have binding, season-altering outcomes.",
     blocks: [
       { type: "h2", text: "What is a setpiece battle?" },
-      { type: "p", text: "A **setpiece battle** is the **deciding engagement** in a war - the third and final session in a best-of-three series, or a special single-session battle declared for major narrative stakes. Setpiece battles are larger, longer, and more mechanically complex than standard battles." },
+      { type: "p", text: "A **setpiece battle** is the **deciding engagement** in a war (add more here)" },
       { type: "h2", text: "When setpiece battles happen" },
       { type: "ul", items: [
-        "When a war reaches its deciding third session",
-        "When both nations agree to escalate to a setpiece (rare - requires mod approval)",
-        "When the mod team calls a **season finale** battle (end-of-season event)",
+        "first bullet",
+        "second)",
+        "third",
       ]},
       { type: "h2", text: "Setpiece battle rules" },
       { type: "p", text: "Setpiece battles differ from standard sessions in the following ways:" },
       { type: "ul", items: [
-        "**Extended duration** - 120 minutes active battle time (vs. 60–90 for standard)",
-        "**5 lives** per player (vs. 3 for standard)",
-        "**Allies may participate** - allied nations can fight in setpiece battles, not just standard ones",
-        "**Mercenaries are allowed** (follow standard mercenary rules)",
-        "**Setpiece objectives** - in addition to banners, each battle has 1–2 unique objectives set by the mod team (e.g., hold the fortress, escort the artifact, survive until sundown)",
-        "**Double spoils** - the winner's battle chest haul is doubled for setpiece sessions",
+        "**item 1** - basdnhfjk",
+        "**item 2** pedfgh",
+        "**item 3** -blehs",
       ]},
       { type: "h2", text: "Setpiece narrative" },
-      { type: "p", text: "Setpiece battles are expected to be **documented and narrated**. Both factions are encouraged to write a post-battle summary from their perspective. The mod team will compile an official historical record of each setpiece battle in the Hall of Records." },
+      { type: "p", text: "Setpiece battles are expected to be **documented and narrated**. Both factions are encouraged to write a post-battle summary from their perspective. The mod team will compile an official historical record of each setpiece battle on the official @history.of.bonkus Instagamm acco8tn." },
       { type: "h2", text: "Outcome weight" },
-      { type: "p", text: "A setpiece battle win is a decisive victory. The losing nation cannot declare another war for **14 days** after losing a setpiece. They must accept the winner's peace terms (mod team ensures terms are not impossibly punishing)." },
-      { type: "callout", variant: "info", lead: "Season finale", text: "The season-ending event is always a setpiece battle - typically involving all active nations on different sides. It is announced at least 2 weeks in advance. The outcome of the finale determines the Season 5 ending lore." },
+      { type: "p", text: "A setpiece battle win is a decisive victory. The losing nation cannot declare another war for **temproary period of itme** after losing a setpiece. They must accept the winner's peace terms (mod team ensures terms are not impossibly punishing)." },
     ],
   },
 

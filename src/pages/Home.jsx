@@ -12,8 +12,7 @@ export default function Home() {
           Complete rules, systems, and guidelines for the fifth season.
         </p>
         <p className="mt-4 max-w-2xl mx-auto text-stone-700">
-          This is the full master guide. Each section below is a tab on the live site;
-          each subsection is a page within that tab. New here? Start with{' '}
+          Welcome to the Bonkus 5 Complete Guide! New here? Start with{' '}
           <Link to="/start-here/welcome" className="text-grass-700 font-semibold underline">
             Welcome to Bonkus
           </Link>.

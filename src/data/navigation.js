@@ -15,7 +15,7 @@ export const sections = [
   {
     slug: "rules",
     title: "Rules",
-    tagline: "The binding stuff. Breaking these earns strikes.",
+    tagline: "You know what these are.",
     pages: [
       { slug: "code-of-conduct",     title: "Code of Conduct" },
       { slug: "roleplay-rules",      title: "Roleplay Rules" },
@@ -55,7 +55,7 @@ export const sections = [
   {
     slug: "world",
     title: "The World",
-    tagline: "How the world is structured - systems, not rules.",
+    tagline: "How the world is structured, from locations, religions, and more.",
     pages: [
       { slug: "locations-tiers",     title: "Locations & Tiers" },
       { slug: "nations",             title: "Nations" },

@@ -228,7 +228,7 @@ export const bannedItems = {
       { type: "ul", items: [
         "**PvP outside Battle Time.** Yes, this is fine. Killing other players in legitimate roleplay context is allowed. Conquest isn't.",
         "**Building anywhere in Wilderness.** As long as you're 20+ blocks from any existing Location, build whatever.",
-        "**Multiple bases.** You can have bases in many places. You only get **one primary residence** per Location.",
+        "**Multiple bases.** You can have bases in many places. You only get **one primary residence** per Location (idek if this is even true).",
         "**Mythic theft.** Mythics can be stolen during legitimate war, with mod approval. See War & Conflict Rules.",
       ]},
       { type: "h2", text: "Server OP and admin tools (staff transparency note)" },
@@ -238,7 +238,7 @@ export const bannedItems = {
         "Image-frame permissions are set to \"everyone\" rather than OP-only - not an exploit, by design.",
         "Mods who use OP for personal play are subject to internal discipline.",
       ]},
-      { type: "h2", text: "The final rule" },
+      { type: "h2", text: "The final rule if you are unsure" },
       { type: "ul", items: [
         "Ask in #questions before you build it.",
         "Ask a moderator before you install it.",
