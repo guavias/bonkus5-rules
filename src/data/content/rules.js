@@ -103,7 +103,7 @@ export const rules = {
       ]},
       { type: "h2", text: "Alliances and neutrality" },
       { type: "p", text: "Countries may form alliances. An allied nation may participate in war alongside their ally only if they **officially enter the war** through their own declaration. You cannot 'assist' without a formal involvement." },
-      { type: "p", text: "**PASSIVE COUNTRIES** do not exist. Your country must be engaged in server politics when possible (so I'm just saying - PICK A DAMN SIDE)" },
+      { type: "p", text: "Passive/Neutral countries in Bonkus do not exist. You do not have to participate in every single war, but you must be engaged in server and regional politics when applicable. During times of major conflict between a large number of factions, you must choose a side. You should have your own set of enemies, just like a set of allies" },
       { type: "h2", text: "Peace treaties" },
       { type: "p", text: "Wars end through a **Peace Treaty** submitted by both parties, or very rarely, by mod intervention if a war has dragged on for too long without resolution. Peace terms must be documented in Minecraft **using writable books**." },
       { type: "h2", text: "Assassinations and espionage" },

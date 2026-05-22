@@ -42,7 +42,7 @@ export const bannedItems = {
       { type: "h2", text: "Elytra" },
       { type: "ul", items: [
         "**Elytra cannot be worn in the Overworld or the Nether.** Putting one on outside the End kills you instantly.",
-        "This is enforced by a repeating command-block check.",
+        "This is enforced by the server datapack",
         "Whether Elytra are usable inside the End at all is age-gated - see the Age-Gated page.",
         "**Reasoning:** Elytra collapse distance, trivialize fortifications, ruin the value of cavalry and ships, and make every conflict a flying duel.",
       ]},
@@ -137,7 +137,7 @@ export const bannedItems = {
       { type: "h2", text: "Shulker shells / Shulker boxes" },
       { type: "ul", items: [
         "Shulker shells are obtainable but **restricted**. Shulker farms are not permitted by default - they tend to be controlled by one Nation, which is fine if it happens organically.",
-        "In Bonkus 4, the team spawned two custom End Cities (without ships) somewhere in the world border. Whichever Nation controls that territory gets a **Shulker Spawner** as a Location reward.",
+        "In Bonkus 4, the team spawned two custom End Cities (without elytras) somewhere in the world border. Whichever Nation controls that territory gets a **Shulker Spawner** as a Location reward.",
         "Expect a similar model in Bonkus 5: shulker access is geographic, not personal.",
         "Shulker boxes themselves are not banned - but they're subject to the same theft/looting rules as other containers.",
       ]},
@@ -165,7 +165,6 @@ export const bannedItems = {
       ]},
       { type: "h2", text: "Banned outright" },
       { type: "ul", items: [
-        "**AFK farms of any kind.** If the design intent is to leave it running while you sleep, it's not allowed.",
         "**TNT dupers** (banned for game-balance reasons - they can produce infinite gunpowder).",
         "**Wither cage farms** - not for the wither skeleton skulls, not for the netherite.",
         "**Hostile mob farms in or under residential Locations.** These count as griefing.",
@@ -214,7 +213,6 @@ export const bannedItems = {
       { type: "ul", items: [
         "Pearls are not a normal vanilla drop here - they're a custom unlockable item (overworld + watery biomes, primary or secondary specialization).",
         "**Enderorb** is the modified Ender Pearl mechanic - see custom items.",
-        "No infinite-pearl exploits, including stasis chambers.",
       ]},
     ],
   },
