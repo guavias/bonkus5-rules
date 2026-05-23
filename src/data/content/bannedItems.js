@@ -18,8 +18,8 @@ export const bannedItems = {
       { type: "p", text: "Cosmetic mods, performance mods (Sodium, Lithium, OptiFine), shaders that just look pretty, and informational mods (minimaps without entity radar, lighting overlays) are fine. **When in doubt, ask before installing.**" },
       { type: "h2", text: "Alt accounts" },
       { type: "ul", items: [
-        "No alt accounts without explicit prior staff approval.",
-        "Alt accounts of banned players are themselves bannable on sight.",
+        "Alt accounts are not allowed under any cirumstances. If you have a specific reason you would like an alt account and believe it is important please communicate this to the mods.",
+        "This does not guanarantee that an alt account will be approved, but the team is open to considering it if you have a good reason.",
       ]},
       { type: "h2", text: "Exploits and game bugs" },
       { type: "ul", items: [
