@@ -20,7 +20,7 @@ export const startHere = {
       { type: "h2", text: "If you are new to Bonkus" },
       { type: "p", text: "Read this entire Start Here section first. Then read the Rules section. We also recommend that you read the Roleplay Guide and World sections to be familiar with how the server works." },
       { type: "h2", text: "If you've played Bonkus before" },
-      { type: "p", text: "Welcome back! Bonkus 5 introduces significant changes from Bonkus. You should read at minimum:" },
+      { type: "p", text: "Welcome back! Bonkus 5 introduces significant changes from Bonkus 4. You should read at minimum:" },
       { type: "ul", items: [
         "**What is Bonkus?** - the premise has been updated",
         "**Rules** - several rules have been revised or added",

@@ -30,7 +30,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-/* "Block" card styling — looks like a Minecraft block panel */
+/* "Block" card styling - looks like a Minecraft block panel */
 .block-card {
   @apply bg-white border-2 border-stone-700 shadow-block rounded-sm;
 }

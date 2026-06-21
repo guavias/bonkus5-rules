@@ -2,6 +2,7 @@ import { useParams, Link, Navigate } from 'react-router-dom'
 import { findSection } from '../data/navigation.js'
 import { getPage } from '../data/content/index.js'
 import ContentRenderer from '../components/ContentRenderer.jsx'
+import CommentSection from '../components/CommentSection.jsx'
 
 export default function PageView() {
   const { sectionSlug, pageSlug } = useParams()
@@ -62,6 +63,8 @@ export default function PageView() {
           )}
         </div>
       </div>
+
+      <CommentSection sectionSlug={sectionSlug} pageSlug={pageSlug} />
     </div>
   )
 }
