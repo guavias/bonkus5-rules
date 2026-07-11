@@ -162,12 +162,12 @@ export const rules = {
     intro: "These rules govern what you can build, where you can build it, and what destruction is permitted.",
     blocks: [
       { type: "h2", text: "Taking unclaimed land (wilderness)" },
-      { type: "p", text: "Land is claimed in blocks of **chunks** (16×16). To claim a chunk, your faction must:" },
+      { type: "p", text: "When players declare a POI, the POI is given a territory by the mods." },
       { type: "ol", items: [
-        "Be in a declared faction with at least 2 active members",
-        "Submit a land claim via the **Land Claim Form**",
-        "Not overlap with another faction's existing claim",
-        "Stay within the **territory limit** for your nation tier (see Locations & Tiers)",
+        "To declare a POI, there must be some sort of building or structure in a wilderness area.",
+        "Players may only build in the POI's territory if they have permission from the nation.",
+        "The POIs may expand on a case by case basis with mod approval if there has been appropriate development made. (Basically if u run out of room)",
+        "Players may build in wilderness areas. ",
       ]},
       { type: "p", text: "Land Claim Form: [TBD: Google Form link for land claim]" },
       { type: "h2", text: "Taking claimed land via building"},
