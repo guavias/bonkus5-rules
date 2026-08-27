@@ -12,7 +12,7 @@ export const battles = {
         "**What you CANNOT do:** You cannot steal items, blow things up, or destroy any blocks/property whatsoever. You should never feel 'on edge' during unstructured time."
       ]},
       { type: "h2", text: "The Campaign Phase" },
-      { type: "p", text: "This is when major military actions and territory conquests take place. When a Campaign begins, normal building and block-breaking are completely disabled, and you are immediately teleported to your home Nation's territory." },
+      { type: "p", text: "This is when you can conquer territory, hunt mobs, and raid other nations. When a Campaign begins, normal building and block-breaking are completely disabled, and you are immediately teleported to your home Nation's territory." },
       { type: "callout", variant: "warning", lead: "Binding Outcomes", text: "Whatever happens in a Campaign—territory lost, lives used, loot stolen—is binding. Territory shifts instantly upon a filled bossbar, and defeated nations become subjugated." },
     ],
   },
