@@ -3,7 +3,7 @@ export const rules = {
   "code-of-conduct": {
     title: "Code of Conduct",
     status: "In Review",
-    intro: "These are the baseline behavioral standards for every player on Bonkus 5. Violations earn strikes regardless of in-character context.",
+    intro: "These are the behavioral standards for every player on Bonkus 5. Violations earn strikes regardless of in-character context.",
     blocks: [
       { type: "callout", variant: "danger", lead: "Binding rules.", text: "Everything on this page applies at all times - in-game, in Discord, and in any Bonkus-adjacent space. 'It was in character' does not excuse a Code of Conduct violation." },
       { type: "callout", variant: "warning", lead: "Banned & restricted.", text: "A separate, detailed list of banned mods, disabled mechanics, age-gated items, farm rules, and PvP balance restrictions is maintained in the Banned & Restricted section. Using any item or mechanic on that list is a strike offense under this Code of Conduct." },
@@ -48,7 +48,7 @@ export const rules = {
       { type: "h2", text: "Metagaming" },
       { type: "p", text: "**Metagaming** is using out-of-character knowledge to inform in-character decisions. It is forbidden." },
       { type: "ul", items: [
-        "Using Dynmap to track players who are raiding you counts as metagaming unless your character has a narrative reason to know (e.g., scouts reported it).",
+        "Using Dynmap to track players who are raiding you counts as metagaming unless your character has a narrative reason to know (e.g., a player who plays as a spy reported it in game).",
         "Reading another faction's Discord channel (if accessible) and acting on it in-game without a character-level justification is metagaming.",
         "Passing OOC information to your faction to coordinate attacks is metagaming.",
         "Knowing a character is going to die before it happens and acting on that knowledge is metagaming.",
@@ -97,13 +97,12 @@ export const rules = {
         "You may enter enemy territory and engage in PvP with members of that nation",
         "You may steal from containers (chests, barrels, etc.) - see Stealing Rules for limits",
         "You may destroy structures - see Build Rules for what destruction is permitted",
-        "You may not raid the same base more than **once every 48 hours (i actually dont know if thats true)**",
         "Raids must be announced in Discord and in Minecraft at the time they begin",
         "Raids may not occur during **scheduled battle time** if both parties are in the same battle",
       ]},
       { type: "h2", text: "Alliances and neutrality" },
       { type: "p", text: "Countries may form alliances. An allied nation may participate in war alongside their ally only if they **officially enter the war** through their own declaration. You cannot 'assist' without a formal involvement." },
-      { type: "p", text: "**PASSIVE COUNTRIES** do not exist. Your country must be engaged in server politics when possible (so I'm just saying - PICK A DAMN SIDE)" },
+      { type: "p", text: "Passive/Neutral countries in Bonkus do not exist. You do not have to participate in every single war, but you must be engaged in server and regional politics when applicable. During times of major conflict between a large number of factions, you must choose a side. You should have your own set of enemies, just like a set of allies." },
       { type: "h2", text: "Peace treaties" },
       { type: "p", text: "Wars end through a **Peace Treaty** submitted by both parties, or very rarely, by mod intervention if a war has dragged on for too long without resolution. Peace terms must be documented in Minecraft **using writable books**." },
       { type: "h2", text: "Assassinations and espionage" },
@@ -162,10 +161,10 @@ export const rules = {
     intro: "These rules govern what you can build, where you can build it, and what destruction is permitted.",
     blocks: [
       { type: "h2", text: "Taking unclaimed land (wilderness)" },
-      { type: "p", text: "Land is claimed in blocks of **chunks** (16×16). To claim a chunk, your faction must:" },
+      { type: "p", text: "Wilderness is claimed using a form. To claim a chunk, your faction must:" },
       { type: "ol", items: [
         "Be in a declared faction with at least 2 active members",
-        "Submit a land claim via the **Land Claim Form**",
+        "Submit a land claim via the **Land Claim Form** by highlighting your land claim on the map",
         "Not overlap with another faction's existing claim",
         "Stay within the **territory limit** for your nation tier (see Locations & Tiers)",
       ]},
@@ -187,8 +186,7 @@ export const rules = {
         "Destroying another player's build outside of a declared war is **grief** - a strike offense",
         "During a **raid** in declared war, you may destroy a limited amount of a structure (up to 25% of a building's blocks). Griefing items (such as TNT, flint and steel, etc.) are permitted in battles on a **CASE BY CASE BASIS**. See **Battles** for more clarification.",
         "You may not destroy **claimed builds entirely** even during war",
-        "Terrain griefing (digging massive holes, stripping entire areas of resources) is forbidden even on your own land if it is highly visible to others (see building standards).",
-        "Lava or water griefing is **ALWAYS** forbidden",
+        "Terrain griefing (digging massive holes, stripping entire areas of resources) is forbidden even on your own land if it is highly visible to others (see building standards)."
       ]},
       { type: "h2", text: "Plot locks" },
       { type: "p", text: "Certain containers and blocks within your base can be marked **plot-locked** by submitting a request to the mod team. Plot-locked items cannot be stolen during a raid. Abuse of the plot-lock system (locking everything) will result in removal of the privilege." },
@@ -209,7 +207,7 @@ export const rules = {
       { type: "p", text: "Most rule violations result in **strikes** rather than immediate bans. Strikes are cumulative across the season." },
       { type: "ul", items: [
         "**1 strike** - formal warning, logged on your record",
-        "**2 strikes** - temporary ban (48 hours) and a required mod check-in before returning",
+        "**2 strikes** - temporary ban (length determined on a case-by-case basis) and a required mod check-in before returning",
         "**3 strikes** - season ban. You are removed from the server for the remainder of the season.",
         "**Season ban** - you may apply to return in Season 6 via the standard application process",
       ]},
