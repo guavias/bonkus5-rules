@@ -14,6 +14,7 @@ export const bannedItems = {
         "**Reach mods, fly mods, no-fall, scaffold mods,** or any client that modifies what your client can normally do.",
         "**Auto-fishing** mods.",
         "**Schematica** print mode or any tool that places blocks for you.",
+        "**Minimap** Or any mod that allows you to see the wherabouts of mobs or players",
       ]},
       { type: "p", text: "Cosmetic mods, performance mods (Sodium, Lithium, OptiFine), shaders that just look pretty, and informational mods (minimaps without entity radar, lighting overlays) are fine. **When in doubt, ask before installing.**" },
       { type: "h2", text: "Alt accounts" },
@@ -31,6 +32,11 @@ export const bannedItems = {
         "Importing builds via WorldEdit schematics or printing tools is not allowed.",
         "You may use schematic *viewers* for personal reference, but blocks must be placed by hand.",
       ]},
+      { type: "h2", text: "Lava Casts and Mega Builds" },
+      { type: "ul", items: [
+        "Lava Casts are banned",
+        "Due to the large number of players on the server and the small border, mega builds are banned unless there's moderator approval before the fact.",
+      ]}
     ],
   },
 
@@ -92,17 +98,17 @@ export const bannedItems = {
     blocks: [
       { type: "h2", text: "Materials" },
       { type: "ul", items: [
-        "**Copper** - Copper Age and later.",
-        "**Iron** - Iron Age and later.",
-        "**Diamond** - Diamond Age and later.",
-        "**Netherite** - Netherite Age (final age).",
+        "**Copper Ager** - Copper & Gold",
+        "**Iron Age** - Iron & Chainmail",
+        "**Diamond Age** - Diamond",
+        "**Netherite Age** - Netherite Age (final age).",
         "Players may not craft higher-age materials (blocked by datapack). If acquired randomly through loot they may use it.",
       ]},
       { type: "h2", text: "Dimensions" },
       { type: "ul", items: [
-        "**The Nether** is locked until lore/timeline permits . Until then, nether ruins cannot be activated (see the Magic Stations section).",
+        "**The Nether** is locked until lore/timeline permits . Until then, nether portals can't be made.",
         "**The End** is also locked until the lore/timeline permits. Until then, end portals cannot be activated.",
-        "After the End is unlocked, Elytra usage is permitted inside the End only - still kill-on-equip in the Overworld and Nether.",
+        "After the End is unlocked, Elytra usage is permitted inside the End only - kill-on-equip in the Overworld and Nether.",
       ]},
       { type: "h2", text: "Enchantments (NEEDS HEAVY REVIEW" },
       { type: "p", text: "Enchantments scale with the age. The exact caps are tuned by the team, but the general principle is:" },
@@ -123,21 +129,14 @@ export const bannedItems = {
       { type: "h2", text: "The Wither" },
       { type: "ul", items: [
         "You may summon the Wither, but doing so in or near a residential area without warning is treated as **griefing**, not \"PvE.\"",
-        "Wither summons outside Battle Time that damage another player's build are a strike.",
-        "Wither summons inside Battle Time follow normal Battle Time rules - you cannot break blocks except permitted scaffolding/ladders/limited TNT, and a Wither will absolutely break blocks. Summoning a Wither during Battle Time is therefore effectively prohibited.",
+        "Wither summons that damage another player's build are a strike."
       ]},
       { type: "h2", text: "TNT" },
       { type: "ul", items: [
         "Outside Battle Time: TNT is restricted to **non-griefing uses only** (terrain shaping in unclaimed Wilderness, demolition of your own builds). TNT used to damage another player's property outside Battle Time is a strike.",
-        "During Battle Time: TNT is limited to **one block per life** (or one block per Battle Time - final ruling pending early-season testing).",
-        "The mod team reserves the right to revoke the TNT exception entirely if it is exploited.",
-      ]},
-      { type: "h2", text: "Shulker shells / Shulker boxes" },
-      { type: "ul", items: [
-        "Shulker shells are obtainable but **restricted**. Shulker farms are not permitted by default - they tend to be controlled by one Nation, which is fine if it happens organically.",
-        "In Bonkus 4, the team spawned two custom End Cities (with ships, but without elytra) somewhere in the world border. Whichever Nation controls that territory gets a **Shulker Spawner** as a Location reward.",
-        "Expect a similar model in Bonkus 5: shulker access is geographic, not personal.",
-        "Shulker boxes themselves are not banned - but they're subject to the same theft/looting rules as other containers.",
+        "During Battle Time: TNT is limited to **one block per battle time**",
+        "TNT must be used only with the permission of the builder."
+        
       ]},
     ],
   },
@@ -145,32 +144,12 @@ export const bannedItems = {
   "farms": {
     title: "Farms",
     status: "In Review",
-    intro: "You can build whatever farms you want. Specific mechanics that would break game balance are simply disabled at the datapack level — they won't function, no rule needed.",
+    intro: "You can build whatever farms you want. Specific mechanics that would break game balance are simply disabled at the datapack level. Any duping however, is not allowed.",
     blocks: [
       { type: "h2", text: "General policy" },
       { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
-      { type: "h2", text: "Disabled by datapack (not rule violations)" },
-      { type: "p", text: "The following farm mechanics are blocked at the server level and simply won't work:" },
-      { type: "ul", items: [
-        "**TNT dupers** — disabled; they can produce infinite gunpowder which breaks war economics",
-        "**Mob-stacking duplication exploits** — disabled",
-        "**Chunk loaders and world-border exploit farms** — disabled for performance and balance reasons.",
-        "[TBD: Additional datapack-blocked farm types to be confirmed before launch]",
-      ]},
+      { type: "p", text: "Any duping isn't allowed." },
       { type: "h2", text: "Build standards" },
-      { type: "ul", items: [
-        "Farms should look like part of the world — visible Location features, not hidden industrial machines",
-        "Hostile mob farms built in or under residential Locations are treated as griefing regardless of whether they function",
-        "If you're unsure whether your farm design is appropriate for its location, ask a mod before building",
-      ]},
-      { type: "h2", text: "Items that spawn in vs. items you farm" },
-      { type: "p", text: "Some items the team will spawn in directly rather than have players farm. Practical examples from Bonkus 4:" },
-      { type: "ul", items: [
-        "**Prismarine** for a guardian-themed build — spawned in (until a guardian farm was built)",
-        "**Stone in massive quantities** for monumental builds — spawned in at mod discretion, only if trading would take an unreasonable amount of time and no player is selling at that scale",
-        "**Specific custom items** — always spawned in by the team, never farmed",
-      ]},
-      { type: "p", text: "Don't demand spawn-ins. Try to build it the normal way first, and if it's genuinely unreasonable, ask a mod." },
     ],
   },
 
@@ -183,7 +162,7 @@ export const bannedItems = {
       { type: "ul", items: [
         "Power and similar enchantments are age-gated as described in Age-Gated Items.",
         "Infinity bows and Mending bows allowed but subject to age caps.",
-        "**Riptide tridents** are datapack-limited. Nations with a water specialization may have expanded access. Exact cap subject to change during early-season testing.",
+        "**Riptide tridents** are datapack-limited. Nations with a water specialization may get an enchanted book for it. Exact cap subject to change during early-season testing.",
       ]},
       { type: "h2", text: "Crossbows" },
       { type: "ul", items: [
@@ -192,13 +171,11 @@ export const bannedItems = {
       ]},
       { type: "h2", text: "Potions" },
       { type: "ul", items: [
-        "Strength 2 splash and lingering potions are governed by the custom Alchemy system - see the Alchemy documentation.",
-        "Combinations that exceed normal vanilla strength (custom alchemy results) require mod review.",
+        "all potions not made with the custom alchemy system are banned, essentially."
       ]},
       { type: "h2", text: "Pearls" },
       { type: "ul", items: [
-        "Pearls are not a normal vanilla drop here - they're a custom unlockable item (overworld + watery biomes, primary or secondary specialization).",
-        "**Enderorb** is the modified Ender Pearl mechanic - see custom items.",
+        "Pearls are not a normal vanilla drop here.",
         "**Pearl stasis chambers are allowed.** Pearls are harder to obtain on this server (endermen and villagers do not drop/trade them normally), and stasis chambers only function while the throwing player is online — they are not a persistent resource drain.",
       ]},
     ],
@@ -213,14 +190,12 @@ export const bannedItems = {
       { type: "ul", items: [
         "**PvP outside Battle Time.** Yes, this is fine. Killing other players in legitimate roleplay context is allowed. Conquest isn't.",
         "**Building anywhere in Wilderness.** As long as you're 20+ blocks from any existing Location, build whatever.",
-        "**Multiple bases.** You can have bases in many places. You only get **one primary residence** per Location (idek if this is even true).",
-        "**Mythic theft.** Mythics can be stolen during legitimate war, with mod approval. See War & Conflict Rules.",
+        "**Multiple bases.** You can have bases in many places. You only get **one primary residence**. (This will be your Nation)."
       ]},
       { type: "h2", text: "Server OP and admin tools (staff transparency note)" },
       { type: "p", text: "This is included for transparency:" },
       { type: "ul", items: [
         "Server OP should not be used for personal advantage. The team has discussed a shared \"Bonkus Dev MC\" account that holds OP, so individual mods aren't tempted to give themselves items, AFK in spectator, or otherwise use OP outside their duties.",
-        "Image-frame permissions are set to \"everyone\" rather than OP-only - not an exploit, by design.",
         "Mods who use OP for personal play are subject to internal discipline.",
       ]},
       { type: "h2", text: "The final rule if you are unsure" },
