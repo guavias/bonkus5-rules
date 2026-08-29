@@ -79,7 +79,7 @@ export const roleplayGuide = {
         "What your character agrees to in character is binding - don't renege on it without a strong narrative reason",
       ]},
       { type: "h2", text: "PvP scenes" },
-      { type: "p", text: "When PvP is permitted (see War & Conflict Rules), frame it as your characters fighting, not just two players clicking on each other. Give narration. Acknowledge when you're hit. Don't min-max combat at the expense of the scene." },
+      { type: "p", text: "When PvP is permitted (see War & Conflict Rules), frame it as your characters fighting, not just two players clicking on each other. Give narration. Don't min-max combat at the expense of the scene." },
       { type: "h2", text: "The spectator" },
       { type: "p", text: "If you are watching a scene that doesn't involve you, such as a duel, a public speech, or a trial, you can be present and react, but don't insert yourself unless your character has a reason to be there. Background characters add atmosphere; don't steal scenes." },
       { type: "h2", text: "Communicating consent" },
