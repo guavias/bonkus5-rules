@@ -45,7 +45,6 @@ export const roleplayGuide = {
     blocks: [
       { type: "h2", text: "Stay in character" },
       { type: "p", text: "While on the Minecraft server, you should be speaking and acting as your character at most times." },
-      { type: "p", text: "If you need to speak OOC quickly, clearly state your intent to use OOC then continue with your message. For longer OOC discussions, move to the #no-rp channel in Discord." },
       { type: "h2", text: "React as your character, not as yourself" },
       { type: "p", text: "When something happens in the world, ask: **how would my character react?** - not how you would react. If your character is a coward, they run. If your character is prideful, they don't apologize easily. Try not to bring real-world emotions or actions into your character" },
       { type: "h2", text: "Consistency across sessions" },
@@ -126,8 +125,8 @@ export const roleplayGuide = {
     intro: "The single most important piece of roleplay craft. Showing in action is always more powerful than telling in narration.",
     blocks: [
       { type: "h2", text: "What 'show don't tell' means" },
-      { type: "p", text: "**Telling:** \"My character is very brave.\"" },
-      { type: "p", text: "**Showing:** Diana runs into a burning, exploding building filled with evil villagers to help Jude while others escape." },
+      { type: "p", text: "**Telling:** \"My character does anything she can for her country's interests only.\"" },
+      { type: "p", text: "**Showing:** Diana breaks her allyship with Ani, because she realizes her allyship holds her back from gaining more resources for her country." },
       { type: "p", text: "Telling is declaring what your character is. Showing is letting the audience *see* it through action. Every claim you make about your character in narration or description is an opportunity to demonstrate instead." },
       { type: "h2", text: "Your character's traits should emerge through play" },
       { type: "p", text: "Don't write in your character application that your character is *wise* and then spend your sessions making reckless decisions. Don't say you're *loyal* and then be the first to sell out your faction. Or if you do,make the contradiction intentional and meaningful (and accept that your character is a *liar* (jk!))." },

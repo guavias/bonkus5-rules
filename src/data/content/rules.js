@@ -23,18 +23,20 @@ export const rules = {
         "No duplication glitches.",
         "No using alt accounts to bypass a ban or whitelist restriction.",
       ]},
-      { type: "h2", text: "Out-of-character (OOC) communication" },
-      { type: "p", text: "When using OOC, please state that before doing so. OOC chat is for clarifying intent, technical issues, or quick logistics. Extended OOC conversation should move to the #no-rp channel in Discord." },
-      { type: "p", text: "Using OOC communication to coordinate in-character decisions (troop movements, surprise attacks, raid timing) is considered metagaming (out-of-game knowledge) and is forbidden." },
+      { type: "h2", text: "Roleplay Appropriately" },
+      { type: "p", text: "Read roleplay rules pls and don't be dumb" },
       { type: "h2", text: "Content standards" },
       { type: "ul", items: [
         "No sexually explicit content, on the server or in Bonkus Discord channels.",
         "No builds, signs, or in-game text containing slurs, hate symbols, or NSFW imagery.",
         "Real-world offensive political statements or propaganda are not appropriate in Bonkus spaces.",
       ]},
+      { type: "h2", text: "No doxxing" },
+      { type: "p", text: "Doxxing, with or without malicious intent, is not allowed" },
       { type: "h2", text: "Drama policy" },
       { type: "p", text: "Out-of-character interpersonal drama should not be brought into Bonkus spaces. If you have a conflict with another player, contact a moderator privately. Public callouts in Discord channels are themselves a conduct violation." },
       { type: "callout", variant: "info", lead: "Good faith", text: "We expect players to operate in good faith. If you are on the edge of a rule and you know it, that's a sign to stop and check. Acting in bad faith will be treated the same as a direct violation." },
+      
     ],
   },
 
@@ -63,6 +65,16 @@ export const rules = {
     ],
   },
 
+  "war-conflict-rules": {
+    title: "War & Conflict Rules",
+    status: "In Review",
+    intro: "These are rules about expected behavior during battles/campaigns. More info on how Battles work can be found in the Battles tab.",
+    blocks: [
+      { type: "h2", text: "erm" },
+      { type: "p", text: "be reasonabel" },
+    ],
+  },
+
   "stealing-rules": {
     title: "Stealing Rules",
     status: "In Review",
@@ -73,8 +85,9 @@ export const rules = {
       { type: "h2", text: "Stealing limits" },
       { type: "p", text: "Even during a permitted raid, stealing has limits:" },
       { type: "ul", items: [
-        "You may take up to half the valuables in the container.",
-        "You may not steal from **personal player inventory** unless you kill them in fair PvP during the raid",
+        "You may take a reasonable amount from the container. This is up to you and the victim's discretion - if you cannot come to an agreement, contact mods. ",
+        "You may not steal from **personal player inventory** unless you kill them in fair PvP during the raid (items will drop instead of spawning as a head",
+        "You must **RETURN ITEMS** if the victim wants them back OOC."
       ]},
       { type: "h2", text: "What counts as permitted stealing" },
       { type: "ul", items: [
@@ -93,6 +106,7 @@ export const rules = {
         "Taking items from containers on unclaimed wilderness land (no faction claim)",
         "Taking items from a player who willingly traded or gifted them to you",
       ]},
+
       { type: "callout", variant: "warning", lead: "CoreProtect logs everything.", text: "Every item taken from a container is logged. If you steal outside the permitted conditions, the mod team will see it and roll back the theft. You will also receive a strike." },
     ],
   },
@@ -103,19 +117,14 @@ export const rules = {
     intro: "These rules govern what you can build, where you can build it, and what destruction is permitted.",
     blocks: [
       { type: "h2", text: "Taking unclaimed land (wilderness)" },
-      { type: "p", text: "Wilderness is claimed using a form. To claim a chunk, your faction must:" },
-      { type: "ol", items: [
-        "Submit a land claim via the **Land Claim Form** by highlighting your land claim on the map",
-        "Not overlap with another faction's existing claim",
-      ]},
-      { type: "p", text: "Land Claim Form: [TBD: Google Form link for land claim]" },
+      { type: "p", text: "Wilderness is claimed by building on it. To claim a chunk, you must go to the mods to get your build approved and be added to an existing/new nation" },
       { type: "h2", text: "Mega Bases/Lavacasts" },
       { type: "p", text: "Lavacasts are banned" },
-      { type: "p", text: "Mega Bases must not be ugly, you must ask the mods for permission before building them." },
+      { type: "p", text: "Mega Bases must not be ugly, you must ask the mods for permission before building them. Mega bases are strongly discouraged." },
       { type: "h2", text: "Build Themes" },
       { type: "p", text: "The world is themed towards historical/fantasy" },
       { type: "p", text: "Anything you build should lean towards historical/fantasy" },
-      { type: "p", text: "You may not build anything that is from another property (I.e. spongebob, dragonballZ, lord of the rings" },
+      { type: "p", text: "You may not build anything that is from another intellectual property (I.e. spongebob, dragonballZ, lord of the rings" },
       { type: "p", text: "(you are allowed to take inspiration) but please be creative." },
       
       { type: "h2", text: "Taking claimed land via building"},
@@ -128,6 +137,7 @@ export const rules = {
       { type: "ul", items: [
         "Builds must be **lore-consistent** - no modern or anachronistic structures without a narrative explanation",
         "Builds in high visibility areas (near the hub, on major roads, in contested zones) are subject to a **quality review** by the mod team",
+        "Build with the environement - stay away from extreme terraforming (large removal of forests, digging giant holes, flattening large plots of land",
         "Ugly or deliberately offensive builds may be removed at mod discretion",
       ]},
       { type: "h2", text: "Grief and destruction" },
@@ -136,7 +146,7 @@ export const rules = {
         "During a campaign, you may destroy a limited amount of a structure. Griefing items (such as TNT, flint and steel, etc.) are permitted in battles depending on the builder.",
         "You may not destroy **builds entirely** even during war",
         "All builds must persist in some form or fashion to show the evolution of the server.",
-        "Terrain griefing (digging massive holes, stripping entire areas of resources) is forbidden even on your own land if it is highly visible to others (see building standards).",
+        "Terrain griefing (digging massive holes, stripping entire areas of resources) is forbidden even on your own land if it is highly visible to others (see building standards). If you want a resource in large quantities, find a player with that item spawner or make a spawner yourself (spawners must be requested)",
         "Also we have coreprotect so don't worry if ur builds incur too much damage"
       ]},
     ],
@@ -150,9 +160,10 @@ export const rules = {
       { type: "h2", text: "The strike system" },
       { type: "p", text: "Most rule violations result in **strikes** rather than immediate bans. Strikes are cumulative across the season." },
       { type: "ul", items: [
-        "**1 strike** - formal warning, logged on your record",
-        "**2 strikes** - temporary ban (length determined on a case-by-case basis) and a required mod check-in before returning",
-        "**3 strikes** - season ban. You are removed from the server for the remainder of the season.",
+        "**Warning** - a small note is made on your record every time you commit a minor offense (minor griefing, stealing cheap items from someone, snooping (looking in other ppl's chests and bases without permission, etc.)",
+        "**1 strike** - multiple warnings can build up to equal one strike. Discussion with mods will be necessary. Committing offenses obviously against the rules (ugly, distracting builds, destroying small builds, stealing valuables when not permitted also warrant one strike." ,
+        "**2 strikes** - temporary ban (length determined on a case-by-case basis, up to 2 weeks) and a required mod check-in before returning",
+        "**3 strikes** - long term ban. You are removed from the server until mod discretion - otherwise, you are removed for the remainder of the season.",
         "**Season ban** - you may apply to return in Season 6 via the standard application process",
       ]},
       { type: "h2", text: "Strike decay" },
@@ -177,7 +188,7 @@ export const rules = {
         "Any additional consequences",
       ]},
       { type: "h2", text: "Collective accountability" },
-      { type: "p", text: "If a **faction** as a whole repeatedly violates rules, the mod team may issue faction-level consequences including: temporary loss of territory, build rollback, war declaration freeze, or faction dissolution." },
+      { type: "p", text: "If a **nation** as a whole repeatedly violates rules, the mod team may issue faction-level consequences including: temporary loss of territory, build rollback, war declaration freeze, or faction dissolution." },
       { type: "callout", variant: "warning", lead: "Strikes are recorded, not forgotten.", text: "Even if a season ends, your strike history is visible to the mod team for future season applications. A player with a season ban will face extra scrutiny when applying to return." },
     ],
   },
@@ -202,7 +213,7 @@ export const rules = {
         "Why you believe the decision was incorrect or disproportionate",
       ]},
       { type: "h2", text: "The appeal process" },
-      { type: "p", text: "Appeals are reviewed by a **panel of two moderators who were not involved in the original decision**. The review typically takes 3–5 days." },
+      { type: "p", text: "Appeals are reviewed by **any staff members who were not involved in the original decision**. The review typically takes 3–5 days." },
       { type: "p", text: "Possible outcomes:" },
       { type: "ul", items: [
         "**Upheld** - the original decision stands",
@@ -210,7 +221,7 @@ export const rules = {
         "**Overturned** - the strike or ban is removed from your record",
       ]},
       { type: "h2", text: "Limits on appeals" },
-      { type: "p", text: "You may submit **one appeal per incident**. If the appeal is rejected, the decision is final. Submitting repeated or frivolous appeals is itself a conduct issue." },
+      { type: "p", text: "You may submit **one appeal per strike/ban**. If the appeal is rejected, the decision is final. Submitting repeated or frivolous appeals is itself a conduct issue." },
       { type: "callout", variant: "info", lead: "Appeals are confidential.", text: "Appeal details are not shared publicly. The outcome may be communicated to relevant parties (e.g., the party who reported you) but the full content of your appeal remains private." },
       { type: "h2", text: "Expedited appeals" },
       { type: "p", text: "If your ban prevents you from participating in an imminent battle time session and you believe the ban was erroneous, flag your appeal as **urgent** in the form. The mod team will prioritize it, but cannot guarantee reversal before the session." },

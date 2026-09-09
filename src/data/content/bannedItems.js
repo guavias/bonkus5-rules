@@ -14,9 +14,9 @@ export const bannedItems = {
         "**Reach mods, fly mods, no-fall, scaffold mods,** or any client that modifies what your client can normally do.",
         "**Auto-fishing** mods.",
         "**Schematica** print mode or any tool that places blocks for you.",
-        "**Minimap** Or any mod that allows you to see the wherabouts of mobs or players",
+        "**Entity minimaps** Or any mod that allows you to see the wherabouts of mobs or players",
       ]},
-      { type: "p", text: "Cosmetic mods, performance mods (Sodium, Lithium, OptiFine), shaders that just look pretty, and informational mods (minimaps without entity radar, lighting overlays) are fine. **When in doubt, ask before installing.**" },
+      { type: "p", text: "Cosmetic mods, performance mods (Sodium, Lithium, OptiFine), shaders that just look pretty, and informational mods (minimaps without entity radar, lighting overlays) are fine. **When in doubt, ask before installing.** This is **NOT** an exhaustive list of banned client side tools." },
       { type: "h2", text: "Alt accounts" },
       { type: "ul", items: [
         "No alt accounts without explicit prior staff approval.",
@@ -27,7 +27,7 @@ export const bannedItems = {
         "No deliberate exploitation of server bugs, plugin glitches, or datapack edge cases for advantage.",
         "If you find one, report it. We will not strike you for reporting in good faith.",
       ]},
-      { type: "h2", text: "Schematic copying" },
+      { type: "h2", text: "Schematic pasting" },
       { type: "ul", items: [
         "Importing builds via WorldEdit schematics or printing tools is not allowed.",
         "You may use schematic *viewers* for personal reference, but blocks must be placed by hand.",
@@ -36,6 +36,11 @@ export const bannedItems = {
       { type: "ul", items: [
         "Lava Casts are banned",
         "Due to the large number of players on the server and the small border, mega builds are banned unless there's moderator approval before the fact.",
+      ]},
+      { type: "h2", text: "Vanilla tipped arrows and vanilla potions" },
+      { type: "ul", items: [
+        "Technically restricted, but due to oversight in code, it may be possible to exploit bugs to obtain these",
+        "This is to promote the alchemy system put in place. tipped arrows/potions are grandfathered in if obtained before publication of rules (September 8 2026) ",
       ]}
     ],
   },
@@ -79,13 +84,12 @@ export const bannedItems = {
       ]},
       { type: "h2", text: "Beacons" },
       { type: "ul", items: [
-        "Beacons are not banned, but **building a beacon requires Wither-killing** - see the Wither section.",
-        "Beacons in residential areas should be screened/covered - a visible beacon counts as a feature of the Location and is part of its lore.",
+        "Beacons are not craftable.", 
+        "**Reasoning:** To encourage use of alchemy system.",
       ]},
       { type: "h2", text: "Trade rebalance items" },
       { type: "ul", items: [
-        "The previous \"trade rebalance\" experiment is **rolled back.** Op villager trades are removed.",
-        "Mending books obtained through trading are still available but capped through new datapack-based trade rules.",
+        "The previous \"trade rebalance\" experiment is **rolled back.** Op villager trades are removed. Enchanted books are not obtainable from villagers and trial chambers, but are obtainable from book spawners",
         "**Reasoning:** The trade rebalance made grinding the only viable path to gear, which is exactly the playstyle Bonkus doesn't want.",
       ]},
     ],
@@ -102,7 +106,7 @@ export const bannedItems = {
         "**Iron Age** - Iron & Chainmail",
         "**Diamond Age** - Diamond",
         "**Netherite Age** - Netherite Age (final age).",
-        "Players may not craft higher-age materials (blocked by datapack). If acquired randomly through loot they may use it.",
+        "Players may not craft higher-age materials (blocked by datapack). Even if acquired randomly through loot they **CANNOT** use it.",
       ]},
       { type: "h2", text: "Dimensions" },
       { type: "ul", items: [
@@ -113,9 +117,9 @@ export const bannedItems = {
       { type: "h2", text: "Enchantments (NEEDS HEAVY REVIEW" },
       { type: "p", text: "Enchantments scale with the age. The exact caps are tuned by the team, but the general principle is:" },
       { type: "ul", items: [
-        "**Power and Sharpness** are capped at lower tiers in earlier ages and rise as ages progress (e.g., Power 1 in Copper Age, Power 5 in Diamond Age).",
-        "**Protection** is similarly capped; the team is considering making **Prot 4 with special effects** a treasure-only enchant rather than a regular one.",
-        "**Mending** is allowed (it's acknowledged as basically required for the server to be playable), but the path to acquiring it is constrained - see the trade rules.",
+        "**Power and Sharpness** are capped at lower tiers in earlier ages and rise as ages progress (e.g., Power 2 in Copper Age, Power 5 in Diamond Age).",
+        "**Protection** is similarly capped; the team is considering making **Prot 2 with special effects** a treasure-only enchant rather than a regular one.",
+        "**Mending** is allowed, but the path to acquiring it is constrained - see Outright Banned rules.",
         "**Riptide, Loyalty, and Channeling** are subject to age and Mythic restrictions - talk to a mod before assuming you can stack them.",
       ]},
     ],
@@ -150,6 +154,8 @@ export const bannedItems = {
       { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
       { type: "p", text: "Any duping isn't allowed." },
       { type: "h2", text: "Build standards" },
+      { type: "p", text: "Should follow build standards as seen in the build rules. Again, try to make it aesthetic and blend in with your environment" },
+
     ],
   },
 
@@ -162,16 +168,16 @@ export const bannedItems = {
       { type: "ul", items: [
         "Power and similar enchantments are age-gated as described in Age-Gated Items.",
         "Infinity bows and Mending bows allowed but subject to age caps.",
-        "**Riptide tridents** are datapack-limited. Nations with a water specialization may get an enchanted book for it. Exact cap subject to change during early-season testing.",
+        "**Riptide tridents** are permanently capped at riptide 1. Nations with a water specialization may get an enchanted book for it. Exact cap subject to change during early-season testing.",
       ]},
       { type: "h2", text: "Crossbows" },
       { type: "ul", items: [
-        "Multishot and Piercing follow normal age caps.",
+        "Multishot is capped at 1, and Piercing is capped at 2.",
         "**Firework rockets used with crossbows** are quantity-limited at ages below Diamond. At Diamond age and above they are not a major concern and no damage nerf is planned.",
       ]},
-      { type: "h2", text: "Potions" },
+      { type: "h2", text: "Potions and tipped arrows" },
       { type: "ul", items: [
-        "all potions not made with the custom alchemy system are banned, essentially."
+        "all potions and tipped arrows not made with the custom alchemy system are banned, essentially."
       ]},
       { type: "h2", text: "Pearls" },
       { type: "ul", items: [
@@ -195,14 +201,15 @@ export const bannedItems = {
       { type: "h2", text: "Server OP and admin tools (staff transparency note)" },
       { type: "p", text: "This is included for transparency:" },
       { type: "ul", items: [
-        "Server OP should not be used for personal advantage. The team has discussed a shared \"Bonkus Dev MC\" account that holds OP, so individual mods aren't tempted to give themselves items, AFK in spectator, or otherwise use OP outside their duties.",
+        "Server OP should not be used for personal advantage. The team has made sure to hold each other accountable when OP is needed so individual mods aren't tempted to give themselves items, AFK in spectator, or otherwise use OP outside their duties.",
         "Mods who use OP for personal play are subject to internal discipline.",
       ]},
-      { type: "h2", text: "The final rule if you are unsure" },
+      { type: "h2", text: "The final rules if you are unsure" },
       { type: "ul", items: [
         "Ask in #questions before you build it.",
         "Ask a moderator before you install it.",
         "Ask a moderator before you trade for it.",
+        "**ASK FOR PERMISSION BEFORE FORGIVENESS** - this reduces the load on the work mods have to do on the server. again ASK ASK ASK",
         "\"I didn't know it was banned\" is not a defense, but admitting it *before* the fact is much better than after.",
       ]},
       { type: "callout", variant: "warning", lead: "Living document.", text: "This list will be updated as new mechanics come up. The most current version of this page is the binding one - not the version that was here when you joined." },
