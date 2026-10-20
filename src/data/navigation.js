@@ -76,7 +76,7 @@ export const sections = [
       { slug: "lives-spawning",       title: "Lives, Spawning, Building Rules" },
       { slug: "battle-banners",       title: "Battle Banners & Tiers" },
       { slug: "stealing-mechanics",    title: "Stealing Mechanics" },
-      { slug: "setpiece-battles",     title: "Setpiece Battles" },
+      { slug: "setpiece-battles",     title: "Being Conquered" },
       { slug: "pve-defensive-mobs",   title: "PvE & Defensive Mobs" },
     ],
   },
@@ -89,8 +89,6 @@ export const sections = [
       { slug: "gate-policy",       title: "Gate Policy & Invites" },
       { slug: "mod-team",          title: "The Mod Team" },
       { slug: "banned-list",       title: "Banned List" },
-      { slug: "forms",             title: "Forms" },
-      { slug: "changelog",         title: "Changelog / Recent Updates" },
     ],
   },
 ];

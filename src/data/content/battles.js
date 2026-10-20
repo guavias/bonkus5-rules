@@ -20,11 +20,10 @@ export const battles = {
   "schedule": {
     title: "Campaign Schedule & Initiation",
     status: "Published",
-    intro: "Campaigns are one hour each, scheduled two times a week. One time when most people can make it, and then a second time for all the people who can't make the first one.",
+    intro: "Campaigns follow the current mod-announced schedule - 7pm CST on Tuesdays and Saturdays.",
     blocks: [
       { type: "h2", text: "Scheduling" },
-      { type: "p", text: "Campaigns occur **weekly during mod-designated hours**. To make sure everyone gets an opportunity to play, the mod team will set up server-wide votes to determine the best times for the Campaign phase to occur." },
-      { type: "p", text: "Once the Campaign time officially begins, the server shifts phases. Normal building is locked, and players are automatically ported to their territories to begin their defense or march on their enemies. If you aren't on time, you don't get as many lives as you would if you were ready from the get-go." },
+      { type: "p", text: "Once the Campaign time officially begins, the server shifts phases. Normal building is locked (see building and block breaking below) and players are automatically ported to their territories to begin their defense or march on their enemies. If you aren't on time, you don't get as many lives as you would if you were ready from the get-go." },
     ],
   },
 
@@ -43,7 +42,7 @@ export const battles = {
         "**Combat Logging:** Disconnecting during combat costs you one life automatically. When you log back in, you are teleported back to your home territory."
       ]},
       { type: "h2", text: "Building & Block Breaking" },
-      { type: "p", text: "Normal building and block-breaking are **entirely disabled** during the Campaign phase. Scaffolding, Ladders, TNT, Water Buckets, and Lava Buckets are the exception to this. You may place unlimited ladders, 64 scaffolding, 1 TNT, Water Bucket, and Lava Bucket. " },
+      { type: "p", text: "Normal building and block-breaking are **entirely disabled** during the Campaign phase. Scaffolding, Ladders, TNT, Water Buckets, Lava Buckets, and Boats are the exception to this. You may place unlimited ladders, 64 scaffolding, 1 TNT, 1 water bucket, 1 lava bucket, and 1 boat." },
     ],
   },
 
@@ -80,13 +79,14 @@ export const battles = {
       { type: "p", text: "You can steal items from chests, frames, armor stands, shelves, and paintings (stealing paintings is encouraged to retain their history!). However, you **cannot break blocks** to access loot, and players cannot hide loot in completely inaccessible, sealed rooms." },
       { type: "ul", items: [
         "**No Offline Raiding:** Offline raiding is strictly forbidden. Stealing must happen within active roleplay.",
-        "**Looting the Dead:** You are fully allowed to loot dead players if they have run out of lives and dropped their inventory."
+        "**Blowing Up a Wall:** You can blow up a wall with permission, provided the action is part of the agreed roleplay and is not used to bypass the rules.",
+        "**Looting the Dead:** You are fully allowed to loot dead players if they have run out of lives and dropped their inventory. You must tell the dead person what you stole afterwards."
       ]},
       { type: "h2", text: "Trapped Chests and Snooping" },
       { type: "p", text: "Trapped chests are locked during normal gameplay. Only the players in that nation may open them or a player carrying that country's banner. During campaigns, they will be unlocked and you may steal from them." },
       { type: "h2", text: "Campaign Stealing Drawbacks" },
       { type: "p", text: "When you open a chest in a different nation's territory, it will log it and signal to the nation's players online." },
-      { type: "p", text: "When stealing during the campaign, if you die, the items drop." },
+      { type: "p", text: "When stealing during the campaign, if you die, the items return to the chest." },
       { type: "p", text: "Stealing during the campaign will encumber you with slowness as you take more stuff." },
       { type: "h2", text: "The Honor System & Signature Items" },
       { type: "p", text: "After stealing, you must tell the victim exactly what was taken. If you steal a specific item they really care about, they can ask for it back out of roleplay, and **you must acquiesce**. However, abusing the ability to ask for things back will result in losing your privilege to steal." },
@@ -95,7 +95,7 @@ export const battles = {
   },
 
   "setpiece-battles": {
-    title: "Subjugation, Rebels & Becoming Nationless",
+    title: "Being Conquered",
     status: "Published",
     intro: "When a nation falls, its people are subjugated by the victors. This section covers the political fallout of a conquered territory.",
     blocks: [
@@ -104,9 +104,9 @@ export const battles = {
       { type: "h2", text: "Exile by Force" },
       { type: "p", text: "If a Country leader is dealing with a rebellious player in a conquered nation, they can handle it by force. If the leader **kills the rebel while wearing a Battle Banner**, that player is stripped of their status and becomes **Nationless**." },
       { type: "h2", text: "The Nationless Experience" },
-      { type: "p", text: "Nationless players can still fight and steal during Campaigns, but they **cannot wear Battle Banners** or conquer territory. They respawn in random locations in the unclaimed wilderness." },
+      { type: "p", text: "Nationless players can still fight during Campaigns, but they **cannot wear Battle Banners, steal or conquer territory.** They respawn in random locations in the unclaimed wilderness." },
       { type: "ul", items: [
-        "**Redemption:** To rejoin a nation, you need explicit permission from both Server Mods and the ruling Country of that nation.",
+        "**Redemption:** To rejoin a nation, the holder of the banner can send you an invite by using the command /invite <nation> <player>",
         "**Starting Fresh:** Nationless players may build in the wilderness to establish a brand-new Nation, requiring no permission from anyone."
       ]},
     ],
