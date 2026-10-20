@@ -40,18 +40,7 @@ export const sections = [
       { slug: "when-in-doubt",      title: "When in Doubt" },
     ],
   },
-  {
-    slug: "roleplay-guide",
-    title: "Roleplay Guide",
-    tagline: "Advice, not rules. How to play well.",
-    pages: [
-      { slug: "character-creation",       title: "Character Creation" },
-      { slug: "playing-your-character",   title: "Playing Your Character" },
-      { slug: "interacting-with-players", title: "Interacting with Other Players" },
-      { slug: "character-death",          title: "Character Death" },
-      { slug: "show-dont-tell",           title: "Show, Don’t Tell" },
-    ],
-  },
+
   {
     slug: "world",
     title: "The World",
@@ -67,11 +56,11 @@ export const sections = [
     ],
   },
   {
-    slug: "battles",
-    title: "Battles",
-    tagline: "How war works on Bonkus.",
+    slug: "conquest",
+    title: "Conquest",
+    tagline: "Conquest",
     pages: [
-      { slug: "battle-time-overview", title: "Battle Time Overview" },
+      { slug: "Campaign Overview", title: "Campaign Overview" },
       { slug: "schedule",             title: "Schedule & How It Starts" },
       { slug: "lives-spawning",       title: "Lives, Spawning, Building Rules" },
       { slug: "battle-banners",       title: "Battle Banners & Tiers" },

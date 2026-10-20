@@ -1,6 +1,6 @@
 export const battles = {
 
-  "battle-time-overview": {
+  "campaign-overview": {
     title: "Combat Phases: Unstructured PvP & Campaigns",
     status: "Published",
     intro: "Combat and conflict on Bonkus are split into two distinct phases: Unstructured PvP and Campaigns. Understanding the difference is key to surviving, expanding your nation, and keeping your loot safe.",
@@ -20,7 +20,7 @@ export const battles = {
   "schedule": {
     title: "Campaign Schedule & Initiation",
     status: "Published",
-    intro: "Campaigns follow the current mod-announced schedule - 7pm CST on Tuesdays and Saturdays.",
+    intro: "Campaigns follow the current mod-announced schedule - **7pm CST on Tuesdays and Saturdays**.",
     blocks: [
       { type: "h2", text: "Scheduling" },
       { type: "p", text: "Once the Campaign time officially begins, the server shifts phases. Normal building is locked (see building and block breaking below) and players are automatically ported to their territories to begin their defense or march on their enemies. If you aren't on time, you don't get as many lives as you would if you were ready from the get-go." },
@@ -79,7 +79,7 @@ export const battles = {
       { type: "p", text: "You can steal items from chests, frames, armor stands, shelves, and paintings (stealing paintings is encouraged to retain their history!). However, you **cannot break blocks** to access loot, and players cannot hide loot in completely inaccessible, sealed rooms." },
       { type: "ul", items: [
         "**No Offline Raiding:** Offline raiding is strictly forbidden. Stealing must happen within active roleplay.",
-        "**Blowing Up a Wall:** You can blow up a wall with permission, provided the action is part of the agreed roleplay and is not used to bypass the rules.",
+        "**Blowing Up a Wall:** You can blow up a wall with permission.",
         "**Looting the Dead:** You are fully allowed to loot dead players if they have run out of lives and dropped their inventory. You must tell the dead person what you stole afterwards."
       ]},
       { type: "h2", text: "Trapped Chests and Snooping" },
@@ -94,7 +94,7 @@ export const battles = {
     ],
   },
 
-  "setpiece-battles": {
+  "campaigns": {
     title: "Being Conquered",
     status: "Published",
     intro: "When a nation falls, its people are subjugated by the victors. This section covers the political fallout of a conquered territory.",
