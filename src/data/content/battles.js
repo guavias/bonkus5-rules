@@ -89,7 +89,7 @@ export const battles = {
       { type: "p", text: "When stealing during the campaign, if you die, the items return to the chest." },
       { type: "p", text: "Stealing during the campaign will encumber you with slowness as you take more stuff." },
       { type: "h2", text: "The Honor System & Signature Items" },
-      { type: "p", text: "After stealing, you must tell the victim exactly what was taken. If you steal a specific item they really care about, they can ask for it back out of roleplay, and **you must acquiesce**. However, abusing the ability to ask for things back will result in losing your privilege to steal." },
+      { type: "p", text: "After stealing, you must tell the victim exactly what was taken. If you steal a specific item they really care about, they can ask for it back out of roleplay, and **you must agree to return it**. However, abusing the ability to ask for things back will result in losing your privilege to steal." },
       { type: "p", text: "**Signature Items:** You may NEVER take a player's Signature Item, they are balanced specifically around their roleplay character." },
     ],
   },
