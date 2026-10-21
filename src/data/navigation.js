@@ -19,7 +19,6 @@ export const sections = [
     pages: [
       { slug: "code-of-conduct",     title: "Code of Conduct" },
       { slug: "roleplay-rules",      title: "Roleplay Rules" },
-      { slug: "war-conflict-rules",  title: "War & Conflict Rules" },
       { slug: "stealing-rules",      title: "Stealing Rules" },
       { slug: "build-rules",         title: "Build Rules" },
       { slug: "strikes-punishments", title: "Strikes & Punishments" },
@@ -49,7 +48,6 @@ export const sections = [
       { slug: "locations-tiers",     title: "Locations & Tiers" },
       { slug: "nations",             title: "Nations" },
       { slug: "countries",           title: "Countries" },
-      { slug: "religions",           title: "Religions" },
       { slug: "other-organizations", title: "Other Organizations" },
       { slug: "tech-trees",          title: "Tech Trees" },
       { slug: "custom-items",        title: "Custom Items" },

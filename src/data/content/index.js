@@ -11,6 +11,7 @@ export const content = {
   "banned-items":   bannedItems,
   "world":          world,
   "battles":        battles,
+  "conquest":       battles,
   "staff-server-invites": staffServer,
 }
 

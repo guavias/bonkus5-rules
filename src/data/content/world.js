@@ -95,17 +95,17 @@ export const world = {
   },
 
   "other-organizations": {
-    title: "Other Organizations",
+    title: "Organizations",
     status: "In Review",
-    intro: "Any organization that doesn't fall into nations, countries, or religions. These can be formed freely and take many shapes.",
+    intro: "Any organization that doesn't fall into nations or countries. These can be formed freely and take many shapes.",
     blocks: [
       { type: "h2", text: "What counts as an organization?" },
-      { type: "p", text: "An **organization** is any formal grouping that doesn't fit the definitions of a nation, country, or religion. This covers a wide range:" },
+      { type: "p", text: "An **organization** is any formal grouping that doesn't fit the definitions of a nation or country. This covers a wide range:" },
       { type: "ul", items: [
         "Coalitions of multiple countries with a shared goal",
         "Industrial or commercial groups (guilds, trading companies, craft orders)",
         "Military alliances, knightly orders, or mercenary bands",
-        "Secret societies, scholarly institutions, or diplomatic bodies",
+        "Secret societies, religious groups, scholarly institutions, or diplomatic bodies",
         "Any other structured group that players choose to formalize",
       ]},
       { type: "h2", text: "Forming an organization" },
@@ -116,8 +116,6 @@ export const world = {
       { type: "callout", variant: "info", lead: "Wax Seals are earned, not requested.", text: "You cannot apply for a Wax Seal. They are awarded by the mod team when an organization demonstrates real influence in the world through its actions, not by filling out a form." },
       { type: "h2", text: "Organizations of Season 5" },
       { type: "p", text: "[TBD: Full list and descriptions of all Season 5 organizations, their membership, purpose, and whether they hold a Wax Seal]" },
-      { type: "h2", text: "Organization mechanics" },
-      { type: "p", text: "Organizations have no fixed mechanical template - their structure, resources, and capabilities are determined by what they do in the world and how the mod team formalizes them. An organization that controls trade routes has different leverage than one that controls information." },
     ],
   },
 

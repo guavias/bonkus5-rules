@@ -47,19 +47,9 @@ export const startHere = {
         "**Roleplay-required** - you must play as a character, not as yourself.",
         "**Politics-first** - the main gameplay loop is diplomacy, espionage, and war, not just building or survival.",
         "**SMP rules apply** - you can die, lose items, and be raided under defined conditions.",
+        "Bonkus encourages interaction with other players on the server. This means instead of griding to get resources, you should trade with others. Respect the world's geography and choose a build theme for your nation that makes sense. Play to enrich the world and build community, not to exploit the mechanics. Basically saying, when you can, choose immersion, not optimization :)"
       ]},
-      { type: "h2", text: "What Bonkus is NOT" },
-      { type: "ul", items: [
-        "Not an anarchy server - there are firm rules and moderators who enforce them",
-        "Not a creative server - survival mode with defined tech progression",
-        "Not a mini-game server - gameplay sessions are long-form and continuous",
-        "Not casual - we expect preparation, engagement, and commitment from players, especially those wanting to be world leaders.",
-      ]},
-      { type: "h2", text: "Season 5 specifics" },
-      { type: "p", text: "Season 5 is set in a custom-generated world with named regions, biome-locked resources, and a defined political map at the start of the season. Players begin with a character application and a starting nation or country assignment. The world opens with a **peace period** followed by escalating tension and culminating in the start of a war." },
-      { type: "callout", variant: "info", lead: "First time in a political roleplay server?", text: "Don't panic. Most of the complexity emerges naturally through play. Read the Roleplay Guide section for practical advice on how to engage." },
-      { type: "h2", text: "Tone and culture" },
-      { type: "p", text: "Bonkus takes roleplay seriously but also knows it's a game. We expect dramatic, in-character conflict - wars, betrayals, political intrigue - while maintaining a respectful out-of-character community. The drama should be in-world, not between players." },
+
     ],
   },
 
@@ -74,7 +64,7 @@ export const startHere = {
       { type: "p", text: "Before you submit a character application, you must read this document - at minimum the Rules section and this Start Here section. You may be asked questions about the rules during the application process." },
       { type: "h2", text: "Step 3: Submit whitelist form" },
       { type: "p", text: "Fill out the whitelist form. This form asks you to describe your character concept, their background, their faction interest (if any), and answer a few rules-knowledge questions." },
-      { type: "p", text: "Whitelist Form: [TBD: Google Form link for character application]" },
+      { type: "p", text: "Whitelist Form: https://docs.google.com/forms/d/e/1FAIpQLSfdSDd-F9pkET0obHqIvMmIOTJo6dVawmBeVutWRkrvNNGjtA/viewform " },
       { type: "callout", variant: "warning", lead: "Read before applying.", text: "Applications that demonstrate the player has not read the rules will be denied." },
       { type: "h2", text: "Step 4: Wait for approval" },
       { type: "p", text: "Once the mod team has reviewed your application, you will receive a response in the Discord server. If approved, you will be given the whitelist role and server IP." },
@@ -83,9 +73,8 @@ export const startHere = {
       { type: "p", text: "Discord invite is only accessable through private communications." },
       { type: "h2", text: "Step 6: Get whitelisted and log in" },
       { type: "p", text: "Once approved, you will receive the server IP and be added to the whitelist." },
-      { type: "h2", text: "Referral policy" },
-      { type: "p", text: "Only Bonkus VIPs may refer **two new players at the start of the game** (see Gate Policy). If your referral receives a strike within their first 30 days, it reflects on you. If your referral is banned, your own status may be reviewed." },
-      { type: "callout", variant: "info", lead: "Mid-season joins", text: "If you are joining mid-season, your character application will include a section on how your character enters the world narratively. You can be assigned to an appropriate existing country, a new country (with approval), or allow you to enter as an independent neutral for a temporary period." },
+      { type: "h2", text: "Invite policy" },
+      { type: "p", text: "Only Bonkus VIPs may invite **two new players at the start of the game** (see Gate Policy). If your invite receives a strike within their first 30 days, it reflects on you. If your referral is banned, your own status may be reviewed. After playing for a certain amount of time, you can apply to be a VIP here: https://docs.google.com/forms/d/e/1FAIpQLSe0sEcmTq6ninSRy4qEJ5ndz-Gw9JakM4GZRWICYfoWDmkg3w/viewform" },
     ],
   },
 

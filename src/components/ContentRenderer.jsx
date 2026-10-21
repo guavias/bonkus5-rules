@@ -9,8 +9,8 @@ import React from 'react'
  */
 function renderInline(text, keyPrefix = '') {
   if (!text) return null
-  // Order matters: TBD first (so brackets aren't eaten by bold/italic)
-  const pattern = /(\[TBD:[^\]]*\])|(\*\*[^*]+\*\*)|(\*[^*]+\*)|(@[a-zA-Z0-9_.]+)|(#[a-zA-Z0-9_-]+)/g
+  // Order matters: markdown links and URLs before bold/italic so they don't get swallowed
+  const pattern = /(\[TBD:[^\]]*\])|(\[[^\]]+\]\([^)]+\))|(\*\*[^*]+\*\*)|(\*[^*]+\*)|((https?:\/\/[^\s)]+))|(@[a-zA-Z0-9_.]+)|(#[a-zA-Z0-9_-]+)/g
   const out = []
   let lastIndex = 0
   let m
@@ -22,10 +22,28 @@ function renderInline(text, keyPrefix = '') {
     const token = m[0]
     if (token.startsWith('[TBD')) {
       out.push(<span key={`${keyPrefix}t${i}`} className="tbd">{token.slice(1, -1)}</span>)
+    } else if (token.startsWith('[') && token.includes('](')) {
+      const match = token.match(/^\[([^\]]+)\]\((https?:\/\/[^)]+)\)$/)
+      if (match) {
+        const [, label, href] = match
+        out.push(
+          <a key={`${keyPrefix}l${i}`} href={href} target="_blank" rel="noreferrer noopener" className="underline text-diamond-700">
+            {label}
+          </a>
+        )
+      } else {
+        out.push(token)
+      }
     } else if (token.startsWith('**')) {
       out.push(<strong key={`${keyPrefix}b${i}`}>{token.slice(2, -2)}</strong>)
     } else if (token.startsWith('*')) {
       out.push(<em key={`${keyPrefix}i${i}`}>{token.slice(1, -1)}</em>)
+    } else if (token.startsWith('http')) {
+      out.push(
+        <a key={`${keyPrefix}u${i}`} href={token} target="_blank" rel="noreferrer noopener" className="underline text-diamond-700">
+          {token}
+        </a>
+      )
     } else if (token.startsWith('@')) {
       out.push(<span key={`${keyPrefix}a${i}`} className="text-diamond-700 font-medium">{token}</span>)
     } else if (token.startsWith('#')) {

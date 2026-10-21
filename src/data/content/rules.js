@@ -65,16 +65,6 @@ export const rules = {
     ],
   },
 
-  "war-conflict-rules": {
-    title: "War & Conflict Rules",
-    status: "In Review",
-    intro: "These are rules about expected behavior during battles/campaigns. More info on how Battles work can be found in the Battles tab.",
-    blocks: [
-      { type: "h2", text: "erm" },
-      { type: "p", text: "be reasonabel" },
-    ],
-  },
-
   "stealing-rules": {
     title: "Stealing Rules",
     status: "In Review",
