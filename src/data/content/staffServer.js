@@ -72,7 +72,7 @@ export const staffServer = {
       { type: "ul", items: [
         "**Routine questions** - post in <#questions> in Discord",
         "**Reports** - DM any active council member",
-        "**Appeals** - submit the Appeals Form (see Forms page)",
+        "**Appeals** - submit the Appeals Form (TBD)",
         "**Urgent issues** - ping @The Council in Discord",
         "**Admin** - DM directly only for issues that have gone unresolved through other channels",
       ]},
