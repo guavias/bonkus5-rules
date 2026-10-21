@@ -21,7 +21,7 @@ export const staffServer = {
         "**Officers** - only has admin access to the Discord server. In charge of organizing the server, managing out of game communications, questions, and any other concerns related to the server.",
       ]},
       { type: "h2", text: "How roles are assigned" },
-      { type: "p", text: "Mod roles are assigned by the Admin and are not open applications. VIPs are chosen by a mod and sent the VIP form, then can become a VIP based on their answers. Contact the mod team in Discord if you believe you should have a role you don't." },
+      { type: "p", text: "Mod roles are assigned by the Admin and are not open applications. VIPs are chosen by a mod and sent the VIP form, then can become a VIP based on their answers. Contact the mod team in Discord if you believe you should have a role you don't. VIP form: https://docs.google.com/forms/d/e/1FAIpQLSe0sEcmTq6ninSRy4qEJ5ndz-Gw9JakM4GZRWICYfoWDmkg3w/viewform" },
     ],
   },
 
