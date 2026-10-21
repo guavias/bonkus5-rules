@@ -206,7 +206,7 @@ export const bannedItems = {
       ]},
       { type: "h2", text: "The final rules if you are unsure" },
       { type: "ul", items: [
-        "Ask in #questions before you build it.",
+        "Ask a moderator before you build it.",
         "Ask a moderator before you install it.",
         "Ask a moderator before you trade for it.",
         "**ASK FOR PERMISSION BEFORE FORGIVENESS** - this reduces the load on the work mods have to do on the server. again ASK ASK ASK",

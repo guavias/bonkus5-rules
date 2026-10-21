@@ -70,7 +70,7 @@ export const staffServer = {
       ]},
       { type: "h2", text: "How to contact the mod team" },
       { type: "ul", items: [
-        "**Routine questions** - post in <#1476032303707979787> in Discord",
+        "**Routine questions** - post in <#questions> in Discord",
         "**Reports** - DM any active council member",
         "**Appeals** - submit the Appeals Form (see Forms page)",
         "**Urgent issues** - ping @The Council in Discord",
