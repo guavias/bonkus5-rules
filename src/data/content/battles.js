@@ -159,6 +159,6 @@ export const battles = {
       "**Nether Portal:** Grants an official Nether connection once the dimension opens. — **Cost:** 15 Cultural Point(s) | **Limit:** Max 1"
     ]}
   ]
-}
+},
 
 };
