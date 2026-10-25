@@ -64,7 +64,7 @@ export const sections = [
       { slug: "battle-banners",    title: "Battle Banners & Tiers" },
       { slug: "stealing-mechanics", title: "Stealing Mechanics" },
       { slug: "campaigns",         title: "Being Conquered" },
-      { slug: "pve-defensive-mobs", title: "PvE & Defensive Mobs" },
+      { slug: "point-shop", title: "Point Shop" },
     ],
   },
   {
