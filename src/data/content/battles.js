@@ -112,28 +112,53 @@ export const battles = {
     ],
   },
 
-  "pve-defensive-mobs": {
-    title: "Campaign Mobs & Point System Entities",
-    status: "Published",
-    intro: "Through the Building Points Economy, nations can purchase custom Mobs and Campaign elements to fortify their lands or assist in battle.",
-    blocks: [
-      { type: "h2", text: "Purchasing Defense" },
-      { type: "p", text: "Points awarded for building (Residential, Military, Cultural, Economic) can be spent in the Point Shop to influence your Campaign defenses." },
-      { type: "h2", text: "Custom Mobs" },
-      { type: "p", text: "Nations can purchase Custom Mobs to populate their lands. There is a hard limit of 2 Passive and 2 Combat (Campaign) Custom Mobs per nation." },
-      { type: "ul", items: [
-        "**Passive Custom Mob:** Costs 5 Residential points.",
-        "**Combat Custom Mob:** Costs 3 Military + 5 Residential points."
-      ]},
-      { type: "h2", text: "Campaign Mob Spawns" },
-      { type: "p", text: "You can purchase dedicated Campaign Mob Spawns to overwhelm attackers or defend key points. Prices may scale depending on the power of the mob requested." },
-      { type: "ul", items: [
-        "**Cost:** 1 Residential Point + 1 Military Point per spawn.",
-        "**Limit:** Maximum of 50 Campaign Mob Spawns allowed."
-      ]},
-      { type: "h2", text: "Capture Timers" },
-      { type: "p", text: "To give defenders a heavy advantage, you can spend **1 Military Point** to add **+1000** to your territory's Capture Timer (up to a limit of +20,000), making it incredibly tedious and difficult for an enemy to out-wait your defenses." },
-    ],
-  },
+  "point-shop": {
+  title: "The Point Shop: Spendable Rewards",
+  status: "Draft",
+  intro: "Through the Building Points Economy, nations can spend their accumulated points across Residential, Military, Cultural, and Economic categories to purchase specialized spawners, territorial buffs, custom items, and expansion privileges. Note: Points can only be spent within the nation's boundaries, and only the nation's banner holder has authority to spend them.",
+  blocks: [
+    { type: "h2", text: "Spawners & Production" },
+    { type: "p", text: "Automate raw materials and enchanted items for your nation." },
+    { type: "ul", items: [
+      "**Resource Spawners:** Generates basic building blocks or raw ingredients (clay balls, bricks, sand, wood logs, etc.). *Note: Requires inputs of precious materials like copper, iron, gold, or diamond to function.* — **Cost:** 1 Economic + 2 Residential Point(s) | **Limit:** Max 3",
+      "**Enchanted Book Spawner:** Produces enchanted books, with certain treasure enchants tied to your nation's theme (e.g., Fire/Nether themed books restricted to Nether nations). Books typically require fuel like a diamond block per book. — **Cost:** 2 Cultural + 2 Economic + 2 Residential Point(s) | **Limit:** Max 2"
+    ]},
+
+    { type: "h2", text: "Magic & Custom Items" },
+    { type: "p", text: "Enhance your nation's magical repertoire and customize specialized gear." },
+    { type: "ul", items: [
+      "**Alchemical Precursor:** — **Cost:** 2 Cultural + 2 Economic Point(s) | **Limit:** Max 1",
+      "**Spell Focus:** — **Cost:** 3 Cultural + 2 Economic + 1 Military Point(s) | **Limit:** Max 1",
+      "**Combat Item:** Themed item for your area. Could be something like a Totem of Undying, a Happy Ghast, or a Creaking Heart, or custom equipment such as a Copper Shield or Soul Orb. — **Cost:** 1 Cultural + 2 Economic + 3 Military Point(s) | **Limit:** Max 1"
+    ]},
+
+    { type: "h2", text: "Cosmetics & Customizations" },
+    { type: "p", text: "Express your nation's unique culture with customized art, music, equipment styling, and brewing." },
+    { type: "ul", items: [
+      "**Custom Painting:** — **Cost:** 1 Point (of any type) x Block Area (e.g., a 2x2 painting costs 4 Points of any type) | **Limit:** No Limit",
+      "**Custom Disk:** — **Cost:** 1 Cultural Point per minute | **Limit:** No Limit",
+      "**Alcohol:** — **Cost:** 1 Economic + 1 Cultural Point(s) | **Limit:** Max 3",
+      "**Wax Seal:** — **Cost:** 1 of Cultural, Economic, or Military Point | **Limit:** No Limit",
+      "**Custom Coin Die:** Allows minting national currency in Copper, Iron, Gold, or Netherite. Base cost is **3 Economic + 3 Cultural + 3 Military + 3 Residential Point(s)**. Additional material costs: +0 (Copper), +3 Residential (Iron), +3 Economic (Gold), or +3 Military (Netherite, Nether nations only). | **Limit:** Max 1",
+      "**Trim Template:** Custom or specialized armor trim template for nation gear customization. — **Cost:** 3 Economic + 3 Cultural + 3 Military Point(s)",
+      "**Trim Material:** Unique trim material palette/item for nation armor. — **Cost:** 3 Economic + 2 Cultural + 1 Military Point(s)"
+    ]},
+
+    { type: "h2", text: "Territory & Defense" },
+    { type: "p", text: "Fortify your lands and raise campaign defenses against invaders." },
+    { type: "ul", items: [
+      "**+1000 Capture Timer:** Extends the time needed for enemy forces to capture your land. — **Cost:** 1 Military Point per +1000 | **Limit:** Max +20,000 total Capture Timer",
+      "**Custom Mob:** Custom passively spawned or battle-oriented entities (base stats ~20). — **Cost:** 5 Residential Point(s) (Passive) OR 5 Residential + 3 Military Point(s) (Combat) | **Limit:** Max 2 Passive, 2 Combat (Campaign)",
+      "**Campaign Mob Spawns:** Dedicated spawners to fortify key locations or overwhelm attackers. — **Cost:** 1 Residential Point | **Limit:** Max 50"
+    ]},
+
+    { type: "h2", text: "Nation Expansion & Special Features" },
+    { type: "p", text: "Expand your population capacity or unlock specialized realm access." },
+    { type: "ul", items: [
+      "**+1 Player to Nation:** Expands member cap beyond the base of 3. — **Cost:** 15 Residential Point(s) | **Limit:** Max 2 extra (5 players total)",
+      "**Nether Portal:** Grants an official Nether connection once the dimension opens. — **Cost:** 15 Cultural Point(s) | **Limit:** Max 1"
+    ]}
+  ]
+},
 
 };
