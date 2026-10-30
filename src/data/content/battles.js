@@ -129,7 +129,7 @@ export const battles = {
     { type: "ul", items: [
       "**Alchemical Precursor:** — **Cost:** 2 Cultural + 2 Economic Point(s) | **Limit:** Max 1",
       "**Spell Focus:** — **Cost:** 3 Cultural + 2 Economic + 1 Military Point(s) | **Limit:** Max 1",
-      "**Combat Item:** Themed item for your area. Could be something like a Totem of Undying, a Happy Ghast, or a Creaking Heart, or custom equipment such as a Copper Shield or Soul Orb. — **Cost:** 1 Cultural + 2 Economic + 3 Military Point(s) | **Limit:** Max 1"
+      "**Combat Item:** Themed item for your area. Could be something like a Totem of Undying, a Happy Ghast, or a Creaking Heart, or custom equipment such as a Copper Shield or Soul Orb. It doesn't need to be new! It can be an existing custom item like glass daggers! Please if you like a conquest mob drop, just request it! — **Cost:** 1 Cultural + 2 Economic + 3 Military Point(s) | **Limit:** Max 1"
     ]},
 
     { type: "h2", text: "Cosmetics & Customizations" },
