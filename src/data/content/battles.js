@@ -115,7 +115,7 @@ export const battles = {
   "point-shop": {
   title: "The Point Shop: Spendable Rewards",
   status: "Published",
-  intro: "Through the Building Points Economy, nations can spend their accumulated points across Residential, Military, Cultural, and Economic categories to purchase specialized spawners, territorial buffs, custom items, and expansion privileges. Note: Points can only be spent within the nation's boundaries, and only the nation's banner holder has authority to spend them.",
+  intro: "Through the Building Points Economy, nations can spend their accumulated points across Residential, Military, Cultural, and Economic categories to purchase specialized spawners, territorial buffs, custom items, and expansion privileges. Note: Points can only be spent within the nation's boundaries, and only the country that controls the nation may spend the nation's points. This means the country's banner holder has authority to spend the nation's points. ",
   blocks: [
     { type: "h2", text: "Spawners & Production" },
     { type: "p", text: "Automate raw materials and enchanted items for your nation." },
