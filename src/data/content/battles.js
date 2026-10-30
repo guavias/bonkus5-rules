@@ -148,8 +148,8 @@ export const battles = {
     { type: "p", text: "Fortify your lands and raise campaign defenses against invaders." },
     { type: "ul", items: [
       "**+1000 Capture Timer:** Extends the time needed for enemy forces to capture your land. — **Cost:** 1 Military Point per +1000 | **Limit:** Max +20,000 total Capture Timer",
-      "**Custom Mob:** Custom passively spawned or battle-oriented entities (base stats ~20). — **Cost:** 5 Residential Point(s) (Passive) OR 5 Residential + 3 Military Point(s) (Combat) | **Limit:** Max 2 Passive, 2 Combat (Campaign)",
-      "**Campaign Mob Spawns:** Dedicated spawners to fortify key locations or overwhelm attackers. — **Cost:** 1 Residential Point | **Limit:** Max 50"
+      "**Custom Mob:** Custom passively spawned or battle-oriented entities - **Cost:** (TALK TO DIANA/ANI FOR COST RELATIVE TO MOB)",
+      "**Campaign Mob Spawns:** Dedicated spawners to fortify key locations or overwhelm attackers. — **Cost:** 1 Residential Point | **Limit:** (DEPENDS ON MOB, TALK TO DIANA/ANI)"
     ]},
 
     { type: "h2", text: "Nation Expansion & Special Features" },
