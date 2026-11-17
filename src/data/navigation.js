@@ -49,7 +49,6 @@ export const sections = [
       { slug: "nations",             title: "Nations" },
       { slug: "countries",           title: "Countries" },
       { slug: "other-organizations", title: "Organizations" },
-      { slug: "tech-trees",          title: "Tech Trees" },
       { slug: "custom-items",        title: "Custom Items" },
     ],
   },
