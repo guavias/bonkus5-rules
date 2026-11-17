@@ -61,7 +61,7 @@ export const startHere = {
       { type: "h2", text: "Step 1: Get an invite" },
       { type: "p", text: "You must be invited by an existing player or directly by the mod team. If you were invited, you should already have a referral from your inviter." },
       { type: "h2", text: "Step 2: Read this document" },
-      { type: "p", text: "Before you submit a character application, you must read this document - at minimum the Rules section and this Start Here section. You may be asked questions about the rules during the application process." },
+      { type: "p", text: "To better understand the rules and roleplay of Bonkus, make sure to read the rest of this document, and also read this roleplay guide. https://docs.google.com/document/d/1vsugQdXppMLvwJV0VKbvKz5elWPFtr_vvSZ5AdpxF8o/edit?tab=t.0 \n This is very important to fully understand how the server works" },
       { type: "h2", text: "Step 3: Submit whitelist form" },
       { type: "p", text: "Fill out the whitelist form. This form asks you to describe your character concept, their background, their faction interest (if any), and answer a few rules-knowledge questions." },
       { type: "p", text: "Whitelist Form: https://docs.google.com/forms/d/e/1FAIpQLSfdSDd-F9pkET0obHqIvMmIOTJo6dVawmBeVutWRkrvNNGjtA/viewform " },
@@ -74,7 +74,7 @@ export const startHere = {
       { type: "h2", text: "Step 6: Get whitelisted and log in" },
       { type: "p", text: "Once approved, you will receive the server IP and be added to the whitelist." },
       { type: "h2", text: "Invite policy" },
-      { type: "p", text: "Only Bonkus VIPs may invite **two new players at the start of the game** (see Gate Policy). If your invite receives a strike within their first 30 days, it reflects on you. If your referral is banned, your own status may be reviewed. After playing for a certain amount of time, you can apply to be a VIP here: https://docs.google.com/forms/d/e/1FAIpQLSe0sEcmTq6ninSRy4qEJ5ndz-Gw9JakM4GZRWICYfoWDmkg3w/viewform" },
+      { type: "p", text: "Only Bonkus VIPs may invite two new players at the start of the game (see Gate Policy). If your invite receives a strike it reflects on you. If your referral is banned, your own status may be reviewed. Make sure to properly explain the type of server this is to your invitees, and that their actions can reflect on you." },
     ],
   },
 
@@ -84,12 +84,11 @@ export const startHere = {
     intro: "Essential technical information about the Bonkus 5 server.",
     blocks: [
       { type: "h2", text: "Server IP" },
-      { type: "p", text: "Server IP: **[TBD: Minecraft server IP address]**" },
-      { type: "p", text: "The server runs on **Java Edition**. Bedrock Edition is supported with Geyser plugin (See below for Bedrock setup instructions). Recommended version: **1.20.x**. The exact version will be pinned in the Discord #server-info channel." },
+      { type: "p", text: "Server IP: **bonkus.modrinth.gg**" },
+      { type: "p", text: "The server runs on **Java Edition**. Bedrock Edition is supported with Geyser plugin (See below for Bedrock setup instructions). Recommended version: **26.2**. The exact version will be pinned in the Discord #server-info channel." },
       { type: "h2", text: "Bedrock Players" },
-      { type: "p", text: "Include instructions here." },      
+      { type: "p", text: "Geyser is currently not set up due to no demand, however if someone wants to join with a copy of Bedrock Edition, we are happy to oblige. Do note that due to custom content, there is a chance it may not translate well on the Bedrock Edition." },      
       { type: "h2", text: "Discord" },
-      { type: "p", text: "Discord invite: [TBD: Discord invite link]" },
       { type: "p", text: "The Discord server is the primary hub for all out-of-game communication. Frequently used channels:" },
       { type: "ul", items: [
         "#announcements - mod team posts all official updates here",

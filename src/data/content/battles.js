@@ -20,7 +20,7 @@ export const battles = {
   "schedule": {
     title: "Campaign Schedule & Initiation",
     status: "Published",
-    intro: "Campaigns follow the current mod-announced schedule - **7pm CST on Tuesdays and Saturdays**.",
+    intro: "Campaigns follow the current mod-announced schedule - **7pm CST on Tuesdays and Sundays.** Check #server-info for updated schedule!",
     blocks: [
       { type: "h2", text: "Scheduling" },
       { type: "p", text: "Once the Campaign time officially begins, the server shifts phases. Normal building is locked (see building and block breaking below) and players are automatically ported to their territories to begin their defense or march on their enemies. If you aren't on time, you don't get as many lives as you would if you were ready from the get-go." },

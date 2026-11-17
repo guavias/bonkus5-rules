@@ -102,7 +102,7 @@ export const bannedItems = {
     blocks: [
       { type: "h2", text: "Materials" },
       { type: "ul", items: [
-        "**Copper Ager** - Copper & Gold",
+        "**Copper Age** - Copper & Gold",
         "**Iron Age** - Iron & Chainmail",
         "**Diamond Age** - Diamond",
         "**Netherite Age** - Netherite Age (final age).",
@@ -114,13 +114,13 @@ export const bannedItems = {
         "**The End** is also locked until the lore/timeline permits. Until then, end portals cannot be activated.",
         "After the End is unlocked, Elytra usage is permitted inside the End only - kill-on-equip in the Overworld and Nether.",
       ]},
-      { type: "h2", text: "Enchantments (NEEDS HEAVY REVIEW" },
+      { type: "h2", text: "Enchantments" },
       { type: "p", text: "Enchantments scale with the age. The exact caps are tuned by the team, but the general principle is:" },
       { type: "ul", items: [
         "**Power and Sharpness** are capped at lower tiers in earlier ages and rise as ages progress (e.g., Power 2 in Copper Age, Power 5 in Diamond Age).",
-        "**Protection** is similarly capped; the team is considering making **Prot 2 with special effects** a treasure-only enchant rather than a regular one.",
-        "**Mending** is allowed, but the path to acquiring it is constrained - see Outright Banned rules.",
-        "**Riptide, Loyalty, and Channeling** are subject to age and Mythic restrictions - talk to a mod before assuming you can stack them.",
+        "**Protection** is similarly capped, base Protection capped at 2 for Copper Age, while the rest are capped higher.",
+        "**Mending** is allowed, but the path to acquiring it is constrained - see Building Points",
+        "**Riptide** is locked to one, with high versions potentially being obtainable down the road",
       ]},
     ],
   },
@@ -148,11 +148,12 @@ export const bannedItems = {
   "farms": {
     title: "Farms",
     status: "In Review",
-    intro: "You can build whatever farms you want. Specific mechanics that would break game balance are simply disabled at the datapack level. Any duping however, is not allowed.",
+    intro: "Specific mechanics that would break game balance are disabled at the datapack level. Any duping however, is not allowed.",
     blocks: [
       { type: "h2", text: "General policy" },
-      { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
+      { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. Except for one. Auto fish farms are a strikeable/bannable offense. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
       { type: "p", text: "Any duping isn't allowed." },
+      { type: "p", text: "Having an Auto Fisher even just built can result in a strike.." },
       { type: "h2", text: "Build standards" },
       { type: "p", text: "Should follow build standards as seen in the build rules. Again, try to make it aesthetic and blend in with your environment" },
 
@@ -168,12 +169,11 @@ export const bannedItems = {
       { type: "ul", items: [
         "Power and similar enchantments are age-gated as described in Age-Gated Items.",
         "Infinity bows and Mending bows allowed but subject to age caps.",
-        "**Riptide tridents** are permanently capped at riptide 1. Nations with a water specialization may get an enchanted book for it. Exact cap subject to change during early-season testing.",
+        "**Riptide tridents**  are permanently capped at riptide 1. Nations with a water specialization may get an enchanted book for it. ",
       ]},
       { type: "h2", text: "Crossbows" },
       { type: "ul", items: [
-        "Multishot is capped at 1, and Piercing is capped at 2.",
-        "**Firework rockets used with crossbows** are quantity-limited at ages below Diamond. At Diamond age and above they are not a major concern and no damage nerf is planned.",
+        "Piercing is Age-Gated, only being 2 at Copper Age.",
       ]},
       { type: "h2", text: "Potions and tipped arrows" },
       { type: "ul", items: [

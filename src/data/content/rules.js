@@ -24,7 +24,7 @@ export const rules = {
         "No using alt accounts to bypass a ban or whitelist restriction.",
       ]},
       { type: "h2", text: "Roleplay Appropriately" },
-      { type: "p", text: "Read roleplay rules pls and don't be dumb" },
+      { type: "p", text: "Roleplay is the foundation of Bonkus, and is important to the connected story. Understanding the Roleplay Guidelines is important to engage in a meaningful way without impacting others gameplay negatively." },
       { type: "h2", text: "Content standards" },
       { type: "ul", items: [
         "No sexually explicit content, on the server or in Bonkus Discord channels.",
@@ -73,28 +73,29 @@ export const rules = {
       { type: "h2", text: "When stealing is permitted" },
       { type: "p", text: "You may steal from another player's containers only during Campaigns" },
       { type: "h2", text: "Stealing limits" },
-      { type: "p", text: "Even during a permitted raid, stealing has limits:" },
+      { type: "p", text: "Even during a permitted conquest, stealing has limits:" },
       { type: "ul", items: [
         "You may take a reasonable amount from the container. This is up to you and the victim's discretion - if you cannot come to an agreement, contact mods. ",
-        "You may not steal from **personal player inventory** unless you kill them in fair PvP during the raid (items will drop instead of spawning as a head",
-        "You must **RETURN ITEMS** if the victim wants them back OOC."
+        "You may not steal from personal player inventory unless you deplete their lives. Once their lives are gone, all their gear will drop as a head.",
+        "You must **RETURN ITEMS** if the victim wants them back OOC (out of character)."
       ]},
       { type: "h2", text: "What counts as permitted stealing" },
       { type: "ul", items: [
-        "Taking items from a chest, barrel, furnace, or any container you do not own",
-        "Taking items from a player who has been killed in fair PvP",
+        "Taking items from a chest, barrel, furnace, or any container you do not own during Conquest",
+        "Taking items from a player who has been killed in fair PvP during Conquest",
+        "You may only steal during scheduled Conquest times."
       ]},
       { type: "h2", text: "What counts as unpermitted stealing" },
       { type: "ul", items: [
-        "Taking items from a dead player during a non-war session",
-        "Any instance of stealing without clarification to the victim(s) that you are stealing/have stolen",
-        "Looting items left in the open in enemy territory beyond the permitted amounts",
+        "Taking items from a dead player during a non conquest session.",
+        "Any instance of stealing without clarification to the victim(s) that you are stealing/have stolen during conquest",
+        "Looting any items, left loose or otherwise, in another nation/country if it is not conquest.",
+        "If a territory has been made, taking items will qualify as stealing even if its wilderness. Conquering said territory lets you take things freely, unless the original owner wants it back."
       ]},
       { type: "h2", text: "What does NOT count as stealing" },
       { type: "ul", items: [
         "Taking items from your own faction's containers when approved",
-        "Taking items from containers on unclaimed wilderness land (no faction claim)",
-        "Taking items from a player who willingly traded or gifted them to you",
+        "Taking items from a player who willingly traded or gifted them to you"
       ]},
 
       { type: "callout", variant: "warning", lead: "CoreProtect logs everything.", text: "Every item taken from a container is logged. If you steal outside the permitted conditions, the mod team will see it and roll back the theft. You will also receive a strike." },
@@ -150,7 +151,7 @@ export const rules = {
       { type: "h2", text: "The strike system" },
       { type: "p", text: "Most rule violations result in **strikes** rather than immediate bans. Strikes are cumulative across the season." },
       { type: "ul", items: [
-        "**Warning** - a small note is made on your record every time you commit a minor offense (minor griefing, stealing cheap items from someone, snooping (looking in other ppl's chests and bases without permission, etc.)",
+        "**Warning** - a small note is made on your record every time you commit a minor offense (minor griefing, stealing cheap items from someone, etc.)",
         "**1 strike** - multiple warnings can build up to equal one strike. Discussion with mods will be necessary. Committing offenses obviously against the rules (ugly, distracting builds, destroying small builds, stealing valuables when not permitted also warrant one strike." ,
         "**2 strikes** - temporary ban (length determined on a case-by-case basis, up to 2 weeks) and a required mod check-in before returning",
         "**3 strikes** - long term ban. You are removed from the server until mod discretion - otherwise, you are removed for the remainder of the season.",
