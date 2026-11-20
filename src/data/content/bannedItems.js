@@ -151,9 +151,9 @@ export const bannedItems = {
     intro: "Specific mechanics that would break game balance are disabled at the datapack level. Any duping however, is not allowed.",
     blocks: [
       { type: "h2", text: "General policy" },
-      { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. Except for one. Auto fish farms are a strikeable/bannable offense. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
+      { type: "p", text: "Farm building is unrestricted by rule. If a farm type is prohibited, the datapack prevents it from functioning rather than relying on a written rule. Except for these twp. Auto fish farms and trial spawner farms are a strikeable/bannable offense. If your farm doesn't work, that's intentional — ask a mod if you're unsure why." },
       { type: "p", text: "Any duping isn't allowed." },
-      { type: "p", text: "Having an Auto Fisher even just built can result in a strike.." },
+      { type: "p", text: "Having an Auto Fisher or Trial Grinder even just built can result in a strike.." },
       { type: "h2", text: "Build standards" },
       { type: "p", text: "Should follow build standards as seen in the build rules. Again, try to make it aesthetic and blend in with your environment" },
 
