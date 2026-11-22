@@ -97,6 +97,12 @@ export const rules = {
         "Taking items from your own faction's containers when approved",
         "Taking items from a player who willingly traded or gifted them to you"
       ]},
+      { type: "h2", text: "All loot should be stealable during Conquest" },
+      { type: "ul", items: [
+        "Hiding your valuables in the wall is a strikeable offense.",
+        "Having a redstone door, or any secret enterances are allowed for the time being, as long as it is accessible during Conquest",
+        "If you need to break any blocks to get to your area, that is not allowed."
+      ]},
 
       { type: "callout", variant: "warning", lead: "CoreProtect logs everything.", text: "Every item taken from a container is logged. If you steal outside the permitted conditions, the mod team will see it and roll back the theft. You will also receive a strike." },
     ],
